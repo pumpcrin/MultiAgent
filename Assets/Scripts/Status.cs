@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Status : MonoBehaviour
+public class Status
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int id;
+    public int Hp;
+    public int Satiety;
+    public int money;
 
-    // Update is called once per frame
-    void Update()
-    {
+    public RoutineEnum currentRoutineEnum;
+    public int routineCount = -1;
+/*    Status(Database database){
         
     }
+    */
 }
