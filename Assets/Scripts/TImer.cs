@@ -1,28 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
 public class Timer : MonoBehaviour
 {
+    public Text timeText;
 
-    int day;
-    int hour;
-    int minute;
-    float time;    
+    float beforeTime;
 
-    float startTime;
+    DateTime dateTime;
 
     void Start()
     {
-        startTime = Time.time;
-        Debug.Log("Start time: "+startTime);
+        beforeTime = Time.time;
+
+        dateTime = new DateTime(1, 1, 1, 6, 0, 0);
     }
 
     void Update()
     {
-        time = Time.time - startTime;
-        if(time > 60) minute++;
-
-        if(Input.GetMouseButtonDown(0)) Debug.LogWarning("m/t: "+minute+"/"+time);
+        if(Time.time - beforeTime >= 1){
+            dateTime = dateTime.AddMinutes(1);
+            beforeTime += 1;
+        }
+        
+        var text = dateTime.ToString("MM月dd日  hh:mm");
+        timeText.text = text;
     }
 }
