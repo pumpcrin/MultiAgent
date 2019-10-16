@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Awake : Routine
 {
-    AwakeParam param;
+    new AwakeParam param;
 
-    public Awake(){
-        param = Database.database.param.awake;
-        startPosition = param.startPosition;
+    public Awake(): base(){
+        param = base.param as AwakeParam;
     }
 
     public override void Start(){}

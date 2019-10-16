@@ -15,14 +15,12 @@ public class Database : MonoBehaviour
 
     void Awake(){
         database = this;
-        param = new Parameters();
     }
 
     void Start(){
         routineList = new List<RoutineEnum>();
         foreach(RoutineEnum value in Enum.GetValues(typeof(RoutineEnum))){
             routineList.Add(value);
-            Debug.Log(value);
         }
     }
 
@@ -32,6 +30,17 @@ public class Database : MonoBehaviour
 
         return routineList[index];
     }
+
+    //この関数の場合分けをなくしたい
+    public Params GetParams(Routine routine){
+        if(routine is Awake)    return param.awake;
+        // else                    throw new InvalidOperationException();
+        else{
+            Debug.LogWarning("Database.GetParam: parameter is not defined.\nargument: "+routine.GetType().ToString());
+            return null;
+        }
+    }
+    // }
 }
 
 [Serializable]
@@ -40,13 +49,17 @@ public class Parameters{
     public float navFinishDistance = 0.5f;
 
     public AwakeParam awake;
-
-    public Parameters(){
-        awake = new AwakeParam();
-    }
 }
 
 [Serializable]
-public class AwakeParam{
-    public Vector3 startPosition;
+public abstract class Params{
+    
+    [SerializeField] Transform startPosition;
+
+    public Vector3 StartPosition => startPosition.position;
+}
+
+[Serializable]
+public class AwakeParam : Params{
+    
 }

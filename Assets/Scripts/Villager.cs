@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.AI;
 using System;
 
+public enum WorkState{
+    Move, Work, Finish
+}
+
 [RequireComponent (typeof(VillagerNavigation))]
 public class Villager : MonoBehaviour
 {
@@ -14,30 +18,30 @@ public class Villager : MonoBehaviour
     Dictionary<RoutineEnum, Routine> routines;
     Routine currentRoutine;
 
-    bool isMoving;
+    WorkState workState;
 
     void Start()
     {
         database = Database.database;
         status = new Status();
         moveScript = GetComponent<VillagerNavigation>();
-        isMoving = false;
+        workState = WorkState.Move;
         CreateRoutines();
         ChangeRoutine();
     }
 
     void Update()
     {
-      if(!isMoving)
-        Work(currentRoutine);
+      switch(workState){
+        case WorkState.Work:    currentRoutine.Loop();     break;
+        //case WorkState.Finish:  //モーションの間待つ   break;
+        case WorkState.Finish:  currentRoutine.Finish();   break;  //今の間だけ（仮）
+      }
     }
 
-    void ToWork(){
-        
-    }
-
-    void Work(Routine routine){
-
+    void ToLoop(){
+        currentRoutine.Start();
+        Debug.Log("start: "+status.currentRoutineEnum);
     }
 
     void CreateRoutines(){
@@ -49,12 +53,20 @@ public class Villager : MonoBehaviour
         }
     }
 
+    //タイマーから呼ばれる（割り込み）
+    public void FinishRoutine(){
+        currentRoutine.Finish();
+        workState = WorkState.Finish;
+        Debug.Log("finish: "+GetType().ToString());
+    }
+
+    //終了モーションなどがある場合はそれが終わり次第これを呼ぶ
     public void ChangeRoutine(){
 
         status.routineCount++;
         status.currentRoutineEnum = database.GetRoutine(status);
 
         currentRoutine = routines[status.currentRoutineEnum];
-        moveScript.SetTarget(currentRoutine.StartPosition, ToWork);
+        moveScript.SetTarget(currentRoutine.StartPosition, ToLoop);
     }
 }
