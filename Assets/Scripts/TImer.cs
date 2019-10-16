@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UniRx;
+using UniRx.Triggers;
 
 public class Timer : MonoBehaviour
 {
@@ -12,11 +14,14 @@ public class Timer : MonoBehaviour
 
     DateTime dateTime;
 
+    ReactiveProperty<DateTime> TimeObservable;
+
     void Start()
     {
         beforeTime = Time.time;
 
         dateTime = new DateTime(1, 1, 1, 6, 0, 0);
+        TimeObservable = this.UpdateAsObservable().Select(_ => dateTime).ToReactiveProperty();
     }
 
     void Update()
