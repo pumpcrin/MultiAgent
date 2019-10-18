@@ -47,19 +47,53 @@ public class Database : MonoBehaviour
 public class Parameters{
 
     public float navFinishDistance = 0.5f;
+    public float worldStartTime = 6;
 
-    public AwakeParam awake;
+    public AwakeParam       awake;
+    public BreakfastParam   breakfast;
+    public WorkParam        work;
+    public LunchParam       lunch;
+    public DinnerParam      dinner;
+    public BathParam        bath;
+    public SleepParam       sleep;
 }
 
 [Serializable]
 public abstract class Params{
     
     [SerializeField] Transform startPosition;
+    [SerializeField] [Range(0, 24)]
+    float startHour;
 
     public Vector3 StartPosition => startPosition.position;
+    public TimeSpan startTime => TimeSpan.FromHours(startHour);
 }
 
 [Serializable]
 public class AwakeParam : Params{
+    
+}
+[Serializable]
+public class BreakfastParam : Params{
+    
+}
+[Serializable]
+public class WorkParam : Params{
+    
+}
+[Serializable]
+public class LunchParam : Params{
+    
+}
+[Serializable]
+public class DinnerParam : Params{
+    
+}
+[Serializable]
+public class BathParam : Params{
+    
+}
+[Serializable]
+public class SleepParam : Params{
     
 }

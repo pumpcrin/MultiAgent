@@ -13,15 +13,19 @@ public class Timer : MonoBehaviour
     float beforeTime;
 
     DateTime dateTime;
+    Database database;
 
-    ReactiveProperty<DateTime> TimeObservable;
+    public ReactiveProperty<DateTime> CurrentTime;
 
     void Start()
     {
+        database = Database.database;
         beforeTime = Time.time;
 
-        dateTime = new DateTime(1, 1, 1, 6, 0, 0);
-        TimeObservable = this.UpdateAsObservable().Select(_ => dateTime).ToReactiveProperty();
+        float worldStartTime = database.param.worldStartTime;
+        int minute = (int)(worldStartTime%1*60);
+        dateTime = new DateTime(1, 1, 1, (int)worldStartTime, minute, 0);
+        CurrentTime = this.UpdateAsObservable().Select(_ => dateTime).ToReactiveProperty();
     }
 
     void Update()
@@ -33,5 +37,9 @@ public class Timer : MonoBehaviour
         
         var text = dateTime.ToString("MM月dd日  hh:mm");
         timeText.text = text;
+
+        //デバッグ用
+        if(Input.GetMouseButtonDown(0))
+            dateTime = dateTime.AddMinutes(30);
     }
 }

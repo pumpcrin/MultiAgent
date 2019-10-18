@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UniRx;
+using System.Linq;
 using System;
 
 public enum WorkState{
@@ -25,8 +27,20 @@ public class Villager : MonoBehaviour
         database = Database.database;
         status = new Status();
         moveScript = GetComponent<VillagerNavigation>();
+
+        var timer = database.GetComponent<Timer>();
+        timer.CurrentTime
+            .Where(dateTime => {
+                if(currentRoutine == null)  Debug.Log("Error is \"where1\"");
+                if(dateTime == null)  Debug.Log("Error is \"where2\"");
+                return currentRoutine.startTime < dateTime.TimeOfDay;
+            })
+            .Subscribe(dateTime => ChangeRoutine());
+
         workState = WorkState.Move;
         CreateRoutines();
+
+        
         ChangeRoutine();
     }
 

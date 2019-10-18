@@ -335,8 +335,28 @@ MonoBehaviour:
   routineList: 0000000000000000000000000000000000000000
   param:
     navFinishDistance: 0.5
+    worldStartTime: 6
     awake:
       startPosition: {fileID: 1178613207}
+      startHour: 6.5
+    breakfast:
+      startPosition: {fileID: 175703973}
+      startHour: 7
+    work:
+      startPosition: {fileID: 572865135}
+      startHour: 8
+    lunch:
+      startPosition: {fileID: 1066187830}
+      startHour: 12
+    dinner:
+      startPosition: {fileID: 1823986428}
+      startHour: 18
+    bath:
+      startPosition: {fileID: 655338549}
+      startHour: 20
+    sleep:
+      startPosition: {fileID: 281032412}
+      startHour: 23
 --- !u!4 &478055163
 Transform:
   m_ObjectHideFlags: 0
@@ -540,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1461,9 +1481,9 @@ RectTransform:
   m_Father: {fileID: 640627335}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -208, y: 377}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 192, y: -84}
   m_SizeDelta: {x: 320, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1619216584
@@ -1499,7 +1519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\u3007\u6708\u3007\u65E5\u30006:00"
 --- !u!222 &1619216585
 CanvasRenderer:
   m_ObjectHideFlags: 0
