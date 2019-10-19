@@ -11,6 +11,7 @@ public class Timer : MonoBehaviour
     public Text timeText;
 
     float beforeTime;
+    float gitTest;
 
     DateTime dateTime;
     Database database;
