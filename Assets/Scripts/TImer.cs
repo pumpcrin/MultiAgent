@@ -26,6 +26,8 @@ public class Timer : MonoBehaviour
         int minute = (int)(worldStartTime%1*60);
         dateTime = new DateTime(1, 1, 1, (int)worldStartTime, minute, 0);
         CurrentTime = this.UpdateAsObservable().Select(_ => dateTime).ToReactiveProperty();
+
+        
     }
 
     void Update()
@@ -35,7 +37,7 @@ public class Timer : MonoBehaviour
             beforeTime += 1;
         }
         
-        var text = dateTime.ToString("MM月dd日  hh:mm");
+        var text = dateTime.ToString("MM月dd日  HH:mm");
         timeText.text = text;
 
         //デバッグ用

@@ -12,14 +12,12 @@ public abstract class Routine
         param = Database.database.GetParams(this);
         if(param == null)   return;
         startPosition = param.StartPosition;
-
     }
 
     public abstract void Start();
     public abstract void Loop();
     public abstract void Finish();
     public Vector3 StartPosition => startPosition;
-    public TimeSpan startTime => param.startTime;
 }
 
 public enum RoutineEnum{

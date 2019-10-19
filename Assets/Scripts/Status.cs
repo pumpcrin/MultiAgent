@@ -10,7 +10,7 @@ public class Status
     public int money;
 
     public RoutineEnum currentRoutineEnum;
-    public int routineCount = -1;
+    public int routineIndex;
 /*    Status(Database database){
         
     }

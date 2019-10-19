@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEditorInternal;
 
@@ -8,33 +9,38 @@ public class Database : MonoBehaviour
 {
     public static Database database;
 
-    [SerializeField]
-    protected List<RoutineEnum> routineList;
     public Parameters param;
-    
+
+    //EditorによってReorderableListで表示するので、デフォルトでは表示しない (関連: EditorTest.cs)
+    [HideInInspector][SerializeField] protected List<RoutineEnum> routineList;
+    [HideInInspector][SerializeField][Range(0, 24)] protected List<float> routineStartHours;
+
+    public List<TimeSpan> RoutineStartTime => routineStartHours.Select(hour => TimeSpan.FromHours(hour)).ToList();
 
     void Awake(){
         database = this;
     }
 
     void Start(){
-        routineList = new List<RoutineEnum>();
-        foreach(RoutineEnum value in Enum.GetValues(typeof(RoutineEnum))){
-            routineList.Add(value);
-        }
+        routineStartHours.Sort();
     }
 
     public RoutineEnum GetRoutine(Status status){
-        int index = status.routineCount%routineList.Count;
-        status.routineCount = index;
+        int index = status.routineIndex%routineList.Count;
+        status.routineIndex = index;
 
         return routineList[index];
     }
 
     //この関数の場合分けをなくしたい
     public Params GetParams(Routine routine){
-        if(routine is Awake)    return param.awake;
-        // else                    throw new InvalidOperationException();
+        if(routine is Awake)            return param.awake;
+        if(routine is Breakfast)        return param.breakfast;
+        if(routine is Work)             return param.work;
+        if(routine is Lunch)            return param.lunch;
+        if(routine is Dinner)           return param.dinner;
+        if(routine is Bath)             return param.bath;
+        if(routine is Sleep)            return param.sleep;
         else{
             Debug.LogWarning("Database.GetParam: parameter is not defined.\nargument: "+routine.GetType().ToString());
             return null;
@@ -47,6 +53,7 @@ public class Database : MonoBehaviour
 public class Parameters{
 
     public float navFinishDistance = 0.5f;
+    [Range(0, 24)]
     public float worldStartTime = 6;
 
     public AwakeParam       awake;
@@ -62,11 +69,10 @@ public class Parameters{
 public abstract class Params{
     
     [SerializeField] Transform startPosition;
-    [SerializeField] [Range(0, 24)]
-    float startHour;
+    // [SerializeField] [Range(0, 24)] float startHour;
 
     public Vector3 StartPosition => startPosition.position;
-    public TimeSpan startTime => TimeSpan.FromHours(startHour);
+    // public TimeSpan startTime => TimeSpan.FromHours(startHour);
 }
 
 [Serializable]
