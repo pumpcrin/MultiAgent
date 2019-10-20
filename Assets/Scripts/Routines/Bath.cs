@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Bath : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Bath;
     new BathParam param;
 
     public Bath(): base(){

@@ -65,7 +65,7 @@ public class Villager : MonoBehaviour
             else    nextIndex %= routineCount;
         }
         
-        return (database.RoutineStartTime[nextIndex] < dateTime.TimeOfDay);
+        return (database.RoutineStartTime[nextIndex] <= dateTime.TimeOfDay);
     }
 
     void CreateRoutines(){

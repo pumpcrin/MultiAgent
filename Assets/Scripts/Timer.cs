@@ -22,7 +22,7 @@ public class Timer : MonoBehaviour
         database = Database.database;
         beforeTime = Time.time;
 
-        float worldStartTime = database.param.worldStartTime;
+        float worldStartTime = database.parameters.worldStartTime;
         int minute = (int)(worldStartTime%1*60);
         dateTime = new DateTime(1, 1, 1, (int)worldStartTime, minute, 0);
         CurrentTime = this.UpdateAsObservable().Select(_ => dateTime).ToReactiveProperty();

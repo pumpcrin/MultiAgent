@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Work : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Work;
     new WorkParam param;
 
     public Work(): base(){

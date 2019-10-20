@@ -23,7 +23,7 @@ public class VillagerNavigation : MonoBehaviour
         var destination = Vector3.Scale(nav.destination, new Vector3(1, 0, 1));
         var current = Vector3.Scale(transform.position, new Vector3(1, 0, 1));
 
-        if (Vector3.Distance(current, destination) < database.param.navFinishDistance)
+        if (Vector3.Distance(current, destination) < database.parameters.navFinishDistance)
         {
             nav.isStopped = true;
 

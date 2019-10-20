@@ -332,9 +332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 578de67e0bcd5564fbdaaa8933dbebf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  param:
+  parameters:
     navFinishDistance: 0.5
-    worldStartTime: 5.4
+    worldStartTime: 6
     awake:
       startPosition: {fileID: 1178613207}
     breakfast:

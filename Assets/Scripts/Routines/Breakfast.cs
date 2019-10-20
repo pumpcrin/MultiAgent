@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Breakfast : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Breakfast;
     new BreakfastParam param;
 
     public Breakfast(): base(){

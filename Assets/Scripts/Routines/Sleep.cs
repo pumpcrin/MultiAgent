@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Sleep : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Sleep;
     new SleepParam param;
 
     public Sleep(): base(){

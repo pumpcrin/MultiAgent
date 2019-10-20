@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Awake : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Awake;
     new AwakeParam param;
 
     public Awake(): base(){

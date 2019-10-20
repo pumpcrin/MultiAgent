@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Dinner : Routine
 {
+    public override RoutineEnum routineEnum => RoutineEnum.Dinner;
     new DinnerParam param;
 
     public Dinner(): base(){

@@ -5,11 +5,12 @@ using System;
 
 public abstract class Routine
 {
+    public abstract RoutineEnum routineEnum{get;}
     protected Params param;
     protected Vector3 startPosition;
 
     public Routine(){
-        param = Database.database.GetParams(this);
+        param = Database.database.GetParams(routineEnum);
         if(param == null)   return;
         startPosition = param.StartPosition;
     }
