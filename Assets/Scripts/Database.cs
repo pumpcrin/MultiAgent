@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using UnityEngine;
-using UnityEditorInternal;
+using UnityEngine.Serialization;
 
 // Routine追加手順
 // RoutineEnum, Routineを継承したclass, Paramsを継承したクラスを定義
@@ -38,21 +38,6 @@ public class Database : MonoBehaviour
         return routineList[index];
     }
 
-    //この関数の場合分けをなくしたい
-    // public Params GetParams(Routine routine){
-    //     if(routine is Awake)            return param.awake;
-    //     if(routine is Breakfast)        return param.breakfast;
-    //     if(routine is Work)             return param.work;
-    //     if(routine is Lunch)            return param.lunch;
-    //     if(routine is Dinner)           return param.dinner;
-    //     if(routine is Bath)             return param.bath;
-    //     if(routine is Sleep)            return param.sleep;
-    //     else{
-    //         Debug.LogWarning("Database.GetParam: parameter is not defined.\nargument: "+routine.GetType().ToString());
-    //         return null;
-    //     }
-    // }
-
     public Params GetParams(RoutineEnum routineEnum){
         var param = parameters.paramList.Where(p => p.paramEnum == routineEnum).First();
         if(param == null){
@@ -71,6 +56,7 @@ public class Parameters{
     public float worldStartTime = 6;
 
     // public List<Params> paramList = new List<Params>(Enum.GetNames(typeof(RoutineEnum)).Count());
+    public Status VillagerDefaultStatus;    //いずれランダムにするため、変数の意味はそのうち変更する予定
     public List<Params> paramList => new List<Params>(){awake, breakfast, work, lunch, dinner, bath, sleep};
 
     [SerializeField] AwakeParam       awake;

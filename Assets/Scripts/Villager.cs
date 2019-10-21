@@ -25,7 +25,7 @@ public class Villager : MonoBehaviour
     void Start()
     {
         database = Database.database;
-        status = new Status();
+        status = new Status(database);
         moveScript = GetComponent<VillagerNavigation>();
 
         //タイマーセット
@@ -41,7 +41,7 @@ public class Villager : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(1)) Debug.Log("currentRoutine: "+status.currentRoutineEnum);
+        if(Input.GetMouseButtonDown(1)) Debug.Log("<status> Hp: "+status.Hp+"\tSatiety: "+status.Satiety+"\nMoney: "+status.Money);
 
         switch(workState){
             case WorkState.Work:    currentRoutine.Loop();     break;
