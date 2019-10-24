@@ -7,7 +7,7 @@ public class Work : Routine
     public override RoutineEnum routineEnum => RoutineEnum.Work;
     new WorkParam param;
 
-    public Work(): base(){
+    public Work(Status status): base(status){
         param = base.param as WorkParam;
     }
 

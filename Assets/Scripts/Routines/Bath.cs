@@ -7,7 +7,7 @@ public class Bath : Routine
     public override RoutineEnum routineEnum => RoutineEnum.Bath;
     new BathParam param;
 
-    public Bath(): base(){
+    public Bath(Status status): base(status){
         param = base.param as BathParam;
     }
 

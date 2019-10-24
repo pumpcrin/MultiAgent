@@ -7,7 +7,7 @@ public class Sleep : Routine
     public override RoutineEnum routineEnum => RoutineEnum.Sleep;
     new SleepParam param;
 
-    public Sleep(): base(){
+    public Sleep(Status status): base(status){
         param = base.param as SleepParam;
     }
 

@@ -43,11 +43,17 @@ public class Villager : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(1)) Debug.Log("<status> Hp: "+status.Hp+"\tSatiety: "+status.Satiety+"\nMoney: "+status.Money);
 
+        CommonProcess();
+
         switch(workState){
             case WorkState.Work:    currentRoutine.Loop();     break;
             //case WorkState.Finish:  //モーションの間待つ    break;
             case WorkState.Finish:  currentRoutine.Finish();   break;  //今の間だけ（仮）
         }
+    }
+
+    void CommonProcess(){
+        
     }
 
     void ToLoop(){
@@ -72,7 +78,7 @@ public class Villager : MonoBehaviour
         routines = new Dictionary<RoutineEnum, Routine>();
         foreach(RoutineEnum enu in Enum.GetValues(typeof(RoutineEnum))){
             var type = Type.GetType(enu.ToString());
-            var instance = Activator.CreateInstance(type) as Routine;
+            var instance = Activator.CreateInstance(type, status) as Routine;
             routines.Add(enu, instance);
         }
     }

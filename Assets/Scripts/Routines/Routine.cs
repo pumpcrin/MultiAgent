@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx.Triggers;
 using System;
 
 public abstract class Routine
@@ -8,11 +9,14 @@ public abstract class Routine
     public abstract RoutineEnum routineEnum{get;}
     protected Params param;
     protected Vector3 startPosition;
+    protected Status status;
 
-    public Routine(){
+    public Routine(Status _status){
         param = Database.database.GetParams(routineEnum);
         if(param == null)   return;
         startPosition = param.StartPosition;
+
+        status = _status;
     }
 
     public abstract void Start();

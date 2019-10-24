@@ -54,6 +54,8 @@ public class Parameters{
     public float navFinishDistance = 0.5f;
     [Range(0, 24)]
     public float worldStartTime = 6;
+    public float satietyDecreasePerMin;
+    public float satietyPerFood;
 
     // public List<Params> paramList = new List<Params>(Enum.GetNames(typeof(RoutineEnum)).Count());
     public Status VillagerDefaultStatus;    //いずれランダムにするため、変数の意味はそのうち変更する予定
@@ -84,11 +86,17 @@ public abstract class Params{
     public Vector3 StartPosition => startPosition.position;
 }
 [Serializable]
+public abstract class EatingParam : Params{
+    public override RoutineEnum paramEnum{get;}
+}
+
+
+[Serializable]
 public class AwakeParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Awake;
 }
 [Serializable]
-public class BreakfastParam : Params{
+public class BreakfastParam : EatingParam{
     public override RoutineEnum paramEnum => RoutineEnum.Breakfast;
 }
 [Serializable]
@@ -96,11 +104,11 @@ public class WorkParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Work;
 }
 [Serializable]
-public class LunchParam : Params{
+public class LunchParam : EatingParam{
     public override RoutineEnum paramEnum => RoutineEnum.Lunch;
 }
 [Serializable]
-public class DinnerParam : Params{
+public class DinnerParam : EatingParam{
     public override RoutineEnum paramEnum => RoutineEnum.Dinner;
 }
 [Serializable]

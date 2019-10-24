@@ -153,10 +153,11 @@ MonoBehaviour:
   parameters:
     navFinishDistance: 0.5
     worldStartTime: 6
+    satietyDecreasePerSec: 1
     VillagerDefaultStatus:
-      Hp: 0
-      Satiety: 0
-      Money: 0
+      Hp: 100
+      Satiety: 1000
+      Money: 1000
     awake:
       startPosition: {fileID: 660704026}
     breakfast:
@@ -408,6 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660704026}
   - component: {fileID: 660704027}
+  - component: {fileID: 660704028}
   m_Layer: 8
   m_Name: DoorCollider
   m_TagString: Untagged
@@ -442,6 +444,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &660704028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660704025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088880a1849a92c4cb1292f8368c2963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &686446119
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +971,7 @@ GameObject:
   - component: {fileID: 1430196828}
   m_Layer: 0
   m_Name: Villager
-  m_TagString: Untagged
+  m_TagString: Villager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
