@@ -153,11 +153,13 @@ MonoBehaviour:
   parameters:
     navFinishDistance: 0.5
     worldStartTime: 6
-    satietyDecreasePerSec: 1
+    satietyDecreasePerMin: 0
+    satietyPerFood: 0
     VillagerDefaultStatus:
       Hp: 100
-      Satiety: 1000
       Money: 1000
+      FoodSaving: 0
+      lastSatiety: 0
     awake:
       startPosition: {fileID: 660704026}
     breakfast:

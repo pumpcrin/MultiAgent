@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lunch : Eating
+public class Lunch : Routine
 {
     public override RoutineEnum routineEnum => RoutineEnum.Lunch;
     new LunchParam param;
@@ -10,7 +10,7 @@ public class Lunch : Eating
     public Lunch(Status status): base(status){
         param = base.param as LunchParam;
     }
-    // public override void Start(){}
-    // public override void Loop(){}
-    // public override void Finish(){}
+    public override void Start(){}
+    public override void Loop(){}
+    public override void Finish(){}
 }

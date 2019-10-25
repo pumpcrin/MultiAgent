@@ -17,6 +17,8 @@ public abstract class Routine
         startPosition = param.StartPosition;
 
         status = _status;
+
+        
     }
 
     public abstract void Start();

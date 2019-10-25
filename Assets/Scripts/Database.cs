@@ -13,7 +13,7 @@ using UnityEngine.Serialization;
 
 public class Database : MonoBehaviour
 {
-    public static Database database;
+    public static Database database = null;
 
     public Parameters parameters;
 
@@ -24,7 +24,7 @@ public class Database : MonoBehaviour
     public List<TimeSpan> RoutineStartTime => routineStartHours.Select(hour => TimeSpan.FromHours(hour)).ToList();
 
     void Awake(){
-        database = this;
+        if(database == null)    database = this;
     }
 
     void Start(){

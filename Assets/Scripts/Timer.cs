@@ -8,6 +8,7 @@ using UniRx.Triggers;
 
 public class Timer : MonoBehaviour
 {
+    public static Timer timer = null;
     public Text timeText;
 
     float beforeTime;
@@ -16,6 +17,10 @@ public class Timer : MonoBehaviour
     Database database;
 
     public ReactiveProperty<DateTime> CurrentTime;
+
+    void Awake(){
+        if(timer == null)   timer = this;
+    }
 
     void Start()
     {

@@ -13,12 +13,7 @@ public class Status
     
     [NonSerialized] public int id;
     public int Hp;
-    public int Satiety{
-        get{
-            return ;
-        }
-    
-    }
+    public int Satiety;
     public int Money;
 
     public int FoodSaving;
@@ -26,21 +21,26 @@ public class Status
     [NonSerialized] public RoutineEnum currentRoutineEnum;
     [NonSerialized] public int routineIndex;
 
-    DateTime lastEatTime;
+    // シリアライズ用constructor
+    public Status(){}
 
     public Status(Database database){
-        var defaultStatus = database.parameters.VillagerDefaultStatus;
+        param = database.parameters;
+        var defaultStatus = param.VillagerDefaultStatus;
         MAX_HP = defaultStatus.Hp;
         MAX_SATIETY = (int)defaultStatus.Satiety;
         Money = defaultStatus.Money;
+        FoodSaving = defaultStatus.FoodSaving;
 
-        lastEatTime = database.parameters.worldStartTime
+        lastEatTime = Timer.timer.CurrentTime.Value;
         Hp = MAX_HP;
     }
 
-    public Eat(DateTime now){
-        var time = now - lastEatTime;
-        
+    public void Eat(){
+        var eatAmount = Math.Min(FoodSaving, Satiety/param.satietyPerFood);
+        lastSatiety = (int)(eatAmount * param.satietyPerFood + Satiety);
+
+        FoodSaving -= Mathf.CeilToInt((float)eatAmount);
     }
     
 }
