@@ -5,7 +5,6 @@ using System;
 
 // デフォルトステータスの受け皿として利用することもあるため、Serializableを使用する
 
-[Serializable]
 public class Status
 {
     public readonly int MAX_HP;
@@ -13,7 +12,15 @@ public class Status
     
     [NonSerialized] public int id;
     public int Hp;
-    public int Satiety;
+    public int Satiety{
+        get{
+            var now = Timer.timer.CurrentTime.Value;
+            var time = now - recentEatTime;
+            var decreasedSatiety = time.TotalMinutes*statusParam.satietyDecreasePerMin;
+
+            return (int)(recentSatiety - decreasedSatiety);
+        }
+    }
     public int Money;
 
     public int FoodSaving;
@@ -21,26 +28,29 @@ public class Status
     [NonSerialized] public RoutineEnum currentRoutineEnum;
     [NonSerialized] public int routineIndex;
 
+    // public DateTime RecentEatTime => recentEatTime;
+    
+    StatusParam statusParam;
+    DateTime recentEatTime;
+    int recentSatiety;
+
+
     // シリアライズ用constructor
-    public Status(){}
 
-    public Status(Database database){
-        param = database.parameters;
-        var defaultStatus = param.VillagerDefaultStatus;
-        MAX_HP = defaultStatus.Hp;
-        MAX_SATIETY = (int)defaultStatus.Satiety;
-        Money = defaultStatus.Money;
-        FoodSaving = defaultStatus.FoodSaving;
+    public Status(){
+        statusParam = Database.database.parameters.statusParam;
 
-        lastEatTime = Timer.timer.CurrentTime.Value;
+        MAX_HP = statusParam.DefaultHp;
+        MAX_SATIETY = (int)statusParam.DefaultSatiety;
+        Money = statusParam.DefaultMoney;
+        FoodSaving = statusParam.DefaultFoodSaving;
+
+        recentEatTime = Timer.timer.CurrentTime.Value;
         Hp = MAX_HP;
     }
 
-    public void Eat(){
-        var eatAmount = Math.Min(FoodSaving, Satiety/param.satietyPerFood);
-        lastSatiety = (int)(eatAmount * param.satietyPerFood + Satiety);
-
-        FoodSaving -= Mathf.CeilToInt((float)eatAmount);
+    public void SetRecentEatTime(DateTime _recentEatTime, int _recentSatiety){
+        recentEatTime = _recentEatTime;
+        recentSatiety = _recentSatiety;
     }
-    
 }

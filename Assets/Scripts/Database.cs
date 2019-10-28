@@ -54,28 +54,32 @@ public class Parameters{
     public float navFinishDistance = 0.5f;
     [Range(0, 24)]
     public float worldStartTime = 6;
-    public float satietyDecreasePerMin;
     public float satietyPerFood;
 
+    public StatusParam statusParam;
+
     // public List<Params> paramList = new List<Params>(Enum.GetNames(typeof(RoutineEnum)).Count());
-    public Status VillagerDefaultStatus;    //いずれランダムにするため、変数の意味はそのうち変更する予定
+    // public Status VillagerDefaultStatus;    //いずれランダムにするため、変数の意味はそのうち変更する予定
     public List<Params> paramList => new List<Params>(){awake, breakfast, work, lunch, dinner, bath, sleep};
 
-    [SerializeField] AwakeParam       awake;
-    [SerializeField] BreakfastParam   breakfast;
-    [SerializeField] WorkParam        work;
-    [SerializeField] LunchParam       lunch;
-    [SerializeField] DinnerParam      dinner;
-    [SerializeField] BathParam        bath;
-    [SerializeField] SleepParam       sleep;
+    [SerializeField] AwakeParam         awake;
+    [SerializeField] BreakfastParam     breakfast;
+    [SerializeField] WorkParam          work;
+    [SerializeField] LunchParam         lunch;
+    [SerializeField] DinnerParam        dinner;
+    [SerializeField] BathParam          bath;
+    [SerializeField] SleepParam         sleep;
 
-    // public Parameters(){
-    //     var enums = Enum.GetNames(typeof(RoutineEnum));
-    //     paramList = new List<Params>(enums.Count());
-    //     foreach(var enu in enums){
-    //         paramList.
-    //     }
-    // }
+}
+
+[Serializable]
+public class StatusParam{
+    public int DefaultHp;
+    public int DefaultSatiety;
+    public int DefaultMoney;
+    public int DefaultFoodSaving;
+    public float satietyDecreasePerMin;
+
 }
 
 [Serializable]
@@ -85,10 +89,6 @@ public abstract class Params{
 
     public Vector3 StartPosition => startPosition.position;
 }
-[Serializable]
-public abstract class EatingParam : Params{
-    public override RoutineEnum paramEnum{get;}
-}
 
 
 [Serializable]
@@ -96,7 +96,7 @@ public class AwakeParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Awake;
 }
 [Serializable]
-public class BreakfastParam : EatingParam{
+public class BreakfastParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Breakfast;
 }
 [Serializable]
@@ -104,11 +104,11 @@ public class WorkParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Work;
 }
 [Serializable]
-public class LunchParam : EatingParam{
+public class LunchParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Lunch;
 }
 [Serializable]
-public class DinnerParam : EatingParam{
+public class DinnerParam : Params{
     public override RoutineEnum paramEnum => RoutineEnum.Dinner;
 }
 [Serializable]

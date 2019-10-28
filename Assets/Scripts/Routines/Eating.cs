@@ -1,25 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Eating : Routine
 {
     public override RoutineEnum routineEnum => RoutineEnum.Lunch;
-    new EatingParam param;
 
-    DateTime lastEatTime;
+    Parameters parameters;
     
 
     public Eating(Status status): base(status){
-        param = base.param as EatingParam;
+        parameters = Database.database.parameters;
     }
     public override void Start(){
-        var now = Timer.timer.CurrentTime.Value;
-        var time = now - lastEatTime;
-        Debug.LogWarning("param"+param);
-        var decreasedSatiety = time.TotalMinutes*param.satietyDecreasePerMin;
+        var eatAmount = Math.Min(status.FoodSaving, status.Satiety/parameters.satietyPerFood);
+        var recentSatiety = (int)(eatAmount * parameters.satietyPerFood + status.Satiety);
+        var recentEatTime = Timer.timer.CurrentTime.Value;
 
-        return (int)(lastSatiety - decreasedSatiety);
+        status.FoodSaving -= Mathf.CeilToInt((float)eatAmount);
+        status.SetRecentEatTime(recentEatTime, recentSatiety);
     }
     public override void Loop(){
         

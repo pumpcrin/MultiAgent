@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEditorInternal;
 
 [CustomEditor(typeof(Database))]
-public class EditorTest : Editor
+public class DatabaseEditor : Editor
 {
     List<ReorderableList> reorderables;
     List<SerializedProperty> properties;
@@ -50,7 +50,8 @@ public class EditorTest : Editor
             reorderables[i].drawElementCallback = (rect, index, isActive, isFocused) =>
             {
                 var elementProperty = properties[i].GetArrayElementAtIndex(index);
-                rect.height = EditorGUIUtility.singleLineHeight;
+                // rect.height = EditorGUIUtility.singleLineHeight;
+                rect.height = 100;
                 EditorGUI.PropertyField(rect, elementProperty, new GUIContent("routine" + index));
             };
 

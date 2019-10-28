@@ -25,7 +25,7 @@ public class Villager : MonoBehaviour
     void Start()
     {
         database = Database.database;
-        status = new Status(database);
+        status = new Status();
         moveScript = GetComponent<VillagerNavigation>();
 
         //タイマーセット
@@ -37,6 +37,8 @@ public class Villager : MonoBehaviour
         workState = WorkState.Move;
         CreateRoutines();
         SetFirstRoutine(timer);
+
+        Debug.LogWarning("start: "+Timer.timer.CurrentTime.Value.ToString());
     }
 
     void Update()
@@ -70,6 +72,8 @@ public class Villager : MonoBehaviour
             if(dateTime.TimeOfDay > database.RoutineStartTime[status.routineIndex]) return false;
             else    nextIndex %= routineCount;
         }
+
+        Debug.Log("CurrentTime: "+Timer.timer.CurrentTime.Value);
         
         return (database.RoutineStartTime[nextIndex] <= dateTime.TimeOfDay);
     }
