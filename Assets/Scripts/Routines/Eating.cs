@@ -14,7 +14,9 @@ public class Eating : Routine
         parameters = Database.database.parameters;
     }
     public override void Start(){
-        var eatAmount = Math.Min(status.FoodSaving, status.Satiety/parameters.satietyPerFood);
+        var decreasedSatiety = status.MAX_SATIETY - status.Satiety;
+        var eatAmount = Math.Min(status.FoodSaving, decreasedSatiety/parameters.satietyPerFood);
+        Debug.LogWarning("eatAmount: "+eatAmount);
         var recentSatiety = (int)(eatAmount * parameters.satietyPerFood + status.Satiety);
         var recentEatTime = Timer.timer.CurrentTime.Value;
 

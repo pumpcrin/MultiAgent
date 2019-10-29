@@ -37,13 +37,11 @@ public class Villager : MonoBehaviour
         workState = WorkState.Move;
         CreateRoutines();
         SetFirstRoutine(timer);
-
-        Debug.LogWarning("start: "+Timer.timer.CurrentTime.Value.ToString());
     }
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(1)) Debug.Log("<status> Hp: "+status.Hp+"\tSatiety: "+status.Satiety+"\nMoney: "+status.Money);
+        if(Input.GetMouseButtonDown(1)) Debug.Log("<status> Hp: "+status.Hp+"\tSatiety: "+status.Satiety+"\nMoney: "+status.Money+"\tfood: "+status.FoodSaving);
 
         CommonProcess();
 

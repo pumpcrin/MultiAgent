@@ -31,7 +31,6 @@ public class Timer : MonoBehaviour
         // CurrentTime = this.UpdateAsObservable().Select(_ => CurrentTime.Value).ToReactiveProperty();
         CurrentTime = new ReactiveProperty<DateTime>();
         CurrentTime.Value = new DateTime(1, 1, 1, (int)worldStartTime, minute, 0);
-        Debug.LogWarning("Timer: "+CurrentTime.Value);
         
     }
 

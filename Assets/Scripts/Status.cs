@@ -18,6 +18,8 @@ public class Status
             var time = now - recentEatTime;
             var decreasedSatiety = time.TotalMinutes*statusParam.satietyDecreasePerMin;
 
+            Debug.Log("recentSatiety: "+recentSatiety);
+
             return (int)(recentSatiety - decreasedSatiety);
         }
     }
@@ -46,11 +48,13 @@ public class Status
         FoodSaving = statusParam.DefaultFoodSaving;
 
         recentEatTime = Timer.timer.CurrentTime.Value;
+        recentSatiety = MAX_SATIETY;
         Hp = MAX_HP;
     }
 
     public void SetRecentEatTime(DateTime _recentEatTime, int _recentSatiety){
         recentEatTime = _recentEatTime;
         recentSatiety = _recentSatiety;
+        Debug.LogWarning("Set!");
     }
 }
