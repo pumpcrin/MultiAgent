@@ -12,17 +12,14 @@ public class VillageBuilder : MonoBehaviour
     void Start()
     {
         var bounds = house.GetComponent<MeshFilter>().sharedMesh.bounds;
-        Debug.Log("bounds"+bounds);
 
-        var boundsCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        boundsCube.transform.localScale = bounds.extents * 2;
-        boundsCube.transform.rotation = houseInstance_debug.transform.rotation;
-        boundsCube.transform.position = houseInstance_debug.transform.position + bounds.center;
-        boundsCube.GetComponent<Renderer>().material = boundsCubeMaterial_debug;
+        var pos = houseInstance_debug.transform.position + bounds.center;
+        var rot = houseInstance_debug.transform.rotation;
+        var sca = bounds.extents * 2;
+
+        var args = new object[]{(object)pos, (object)rot, (object)sca};
+
+        DebugTools.Instance.MethodInvoke(typeof(ShowBounds), args);
     }
 
-    void Update()
-    {
-        
-    }
 }

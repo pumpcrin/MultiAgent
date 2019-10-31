@@ -5,42 +5,9 @@ using UnityEditor;
 using System;
 using System.Linq;
 
-public class DebugTools : MonoBehaviour{
-    public static DebugTools Instance;
-
-    List<DebugToolElement> toolInstances;
-
-    void Start(){
-        if(Instance == null)
-            Instance = this;
-        
-        toolInstances = new List<DebugToolElement>();
-        toolInstances.Add(new DebugToolElement(new ShowBounds()));
-    }
-
-    public void MethodInvoke(Type type){
-        var toolElem = toolInstances.Where(elem => elem.GetType() == type).First();
-        
-    }
-}
-
-public class DebugToolElement{
-    public DebugToolElement(IDebugTool _instance){
-        instance = _instance;
-    }
-
-    public bool isUsed = false;
-    public IDebugTool instance;
-}
-
-public interface IDebugTool{
-    void SetUp();
-    void Method(object[] arguments);
-}
-
 public class ShowBounds : IDebugTool
 {
-    const string assetPath = "Assets/Materials/Debug/BoundsCube.mat";
+    const string assetPath = "Assets/Materials/Debug/DebugTransparent.mat";
 
     public bool isUsed = false;
     Material boundsCubeMaterial;
@@ -50,16 +17,18 @@ public class ShowBounds : IDebugTool
         isUsed = true;
     }
 
-    public void Method(object[] arguments){
-        CreateBoundsCube((Vector3)arguments[0], (Quaternion)arguments[1], (Vector3)arguments[2]);
+    public void Method(object[] args){
+        CreateBoundsCube((Vector3)args[0], (Quaternion)args[1], (Vector3)args[2]);
     }
 
     public void CreateBoundsCube(Vector3 pos, Quaternion rot, Vector3 sca){
         var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        cube.GetComponent<Renderer>().material = boundsCubeMaterial;
-        cube.transform.localScale = sca;
-        cube.transform.rotation = rot;
         cube.transform.position = pos;
+        cube.transform.rotation = rot;
+        cube.transform.localScale = sca;
+        cube.GetComponent<Renderer>().material = boundsCubeMaterial;
+        
+        GameObject.Destroy(cube.GetComponent<BoxCollider>());
 
     }
 }
