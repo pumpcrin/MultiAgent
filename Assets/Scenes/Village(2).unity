@@ -247,6 +247,7 @@ MonoBehaviour:
     navFinishDistance: 0.5
     worldStartTime: 6
     satietyPerFood: 1
+    farmlandMinArea: 10
     statusParam:
       DefaultHp: 100
       DefaultSatiety: 1000
@@ -316,7 +317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1072669a09f9cd74fba9cb2190d90334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  house: {fileID: 2100401591736252226, guid: ed52c73d7acced84aa9528e73d5f05b0, type: 3}
+  house_prefab: {fileID: 2100401591736252226, guid: ed52c73d7acced84aa9528e73d5f05b0,
+    type: 3}
+  road_prefab: {fileID: 6721017184231738605, guid: 81c851be89423c048a8d3d9239381a7f,
+    type: 3}
   houseInstance_debug: {fileID: 1193184353}
   boundsCubeMaterial_debug: {fileID: 2100000, guid: 008aab688b73c9b438bc4611201e77c5,
     type: 2}
@@ -516,7 +520,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: -3.11e-43, y: 4.9e-44, z: 6e-45, w: 7.3e-44}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0

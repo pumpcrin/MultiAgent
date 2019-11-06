@@ -55,6 +55,7 @@ public class Parameters{
     [Range(0, 24)]
     public float worldStartTime = 6;
     public float satietyPerFood;
+    public float farmlandMinArea;
 
     public StatusParam statusParam;
 
