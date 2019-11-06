@@ -4,39 +4,40 @@ using UnityEngine;
 using System.Linq;
 using System;
 
-public class DebugTools : MonoBehaviour{
-    public static DebugTools Instance;
+// public class DebugTools : MonoBehaviour{
+//     public static DebugTools Instance;
 
-    List<DebugToolElement> toolInstances;
+//     List<DebugToolElement> toolInstances;
 
-    void Start(){
-        if(Instance == null)
-            Instance = this;
+//     void Start(){
+//         if(Instance == null)
+//             Instance = this;
         
-        toolInstances = new List<DebugToolElement>();
-        toolInstances.Add(new DebugToolElement(new ShowBounds()));
-    }
+//         toolInstances = new List<DebugToolElement>();
+//         toolInstances.Add(new DebugToolElement(new ShowBounds()));
+//     }
 
-    public void MethodInvoke(Type type, object[] args){
-        DebugToolElement toolElem;
+//     public void MethodInvoke(Type type, object[] args){
+//         DebugToolElement toolElem;
 
-        // Debug.Log("type: "+type.ToString()+"\telem: "+toolin)
+//         // Debug.Log("type: "+type.ToString()+"\telem: "+toolin)
 
-        try{
-            toolElem = toolInstances.Where(elem => elem.instance.GetType() == type).First();
-        }catch(InvalidOperationException e){
-            Debug.LogError("type: "+type.ToString()+" はDebugToolとして登録されていません");
-            return;
-        }
+//         try{
+//             toolElem = toolInstances.Where(elem => elem.instance.GetType() == type).First();
+//         }catch(InvalidOperationException e){
+//             Debug.LogError("type: "+type.ToString()+" はDebugToolとして登録されていません");
+//             return;
+//         }
         
-        if(!toolElem.isUsed){
-            toolElem.instance.SetUp();
-            toolElem.isUsed = true;
-        }
+//         if(!toolElem.isUsed){
+//             toolElem.instance.SetUp();
+//             toolElem.isUsed = true;
+//         }
 
-        toolElem.instance.Method(args);
-    }
-}
+//         toolElem.instance.Method(args);
+//     }
+// }
+
 
 public class DebugToolElement{
     public DebugToolElement(IDebugTool _instance){

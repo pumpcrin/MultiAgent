@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace DebugTool{
-public static class ShowObjectBounds
+    public static class ShowObjectBounds
     {
         static bool isUsed = false;
 
@@ -22,8 +22,9 @@ public static class ShowObjectBounds
             var rot = obj.transform.rotation;
             var sca = bounds.extents * 2;
             sca = Vector3.Scale(sca, obj.transform.lossyScale);
-            var args = new object[]{pos, rot, sca};
-            DebugTools.Instance.MethodInvoke(typeof(ShowBounds), args);
+            // var args = new object[]{pos, rot, sca};
+            // DebugTools.Instance.MethodInvoke(typeof(ShowBounds), args);
+            ShowBounds.CreateBoundsCube(pos, rot, sca);
         }
     }
 }
