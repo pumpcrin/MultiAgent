@@ -84,6 +84,11 @@ public class StatusParam{
 }
 
 [Serializable]
+public class BuilderParam{
+    public float MaxRefraction_deg;
+}
+
+[Serializable]
 public abstract class Params{
     public abstract RoutineEnum paramEnum{get;}
     [SerializeField] Transform startPosition;

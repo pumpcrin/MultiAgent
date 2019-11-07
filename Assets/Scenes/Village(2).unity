@@ -223,7 +223,6 @@ GameObject:
   - component: {fileID: 478055162}
   - component: {fileID: 478055164}
   - component: {fileID: 478055165}
-  - component: {fileID: 478055166}
   m_Layer: 0
   m_Name: Singleton
   m_TagString: Untagged
@@ -247,7 +246,7 @@ MonoBehaviour:
     navFinishDistance: 0.5
     worldStartTime: 6
     satietyPerFood: 1
-    farmlandMinArea: 10
+    farmlandMinArea: 50
     statusParam:
       DefaultHp: 100
       DefaultSatiety: 1000
@@ -324,18 +323,6 @@ MonoBehaviour:
   houseInstance_debug: {fileID: 1193184353}
   boundsCubeMaterial_debug: {fileID: 2100000, guid: 008aab688b73c9b438bc4611201e77c5,
     type: 2}
---- !u!114 &478055166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478055161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef8d255028fbb1c4aa5a30ebb856a9a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &572865135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5594398807409745571, guid: ea0b38e36cf43b64b9d8c82faa39bd87,
