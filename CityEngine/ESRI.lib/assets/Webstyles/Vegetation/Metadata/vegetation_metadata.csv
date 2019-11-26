@@ -1,0 +1,128 @@
+Common Name;Latin Name;Genus;Species;Height Min;Height Max;Height Avg;Crown Height;Crown Radius;Crown Shape;Crown Color;Trunk Radius;Trunk Color;Category;Continents;Hardiness Zone Min;Hardiness Zone Max;Proxy
+Alder Buckthorn;Frangula Alnus;Frangula;Alnus;3;7;6.26;5.86;2.08;S4;#68832d;0.06;#7a7346;Broadleaf;AF,AS,EU,NA;2;8;
+Amazon Sword Plant;Echinodorus Bleheri;Echinodorus;Bleheri;0.4;1;0.92;0.88;0.55;S4;#74990a;0.04;#81a812;Aquatic;AF,AS,EU,NA,OC,SA;9;13;
+American Chestnut;Castanea Dentata;Castanea;Dentata;20;30;21.91;18.42;9.3;S5;#4b7514;0.61;#786b5d;Broadleaf;AF,EU,NA,OC;4;8;
+American Sycamore;Platanus Occidentalis;Platanus;Occidentalis;25;40;28.51;22.07;8.94;S4;#538136;0.71;#988a6d;Broadleaf;AS,EU,NA,OC;4;9;
+Apricot;Prunus Armeniaca;Prunus;Armeniaca;5;10;9.09;8.01;4.16;S5;#4b6917;0.15;#786f5f;Broadleaf;AF,AS,EU,NA,OC,SA;5;7;
+Australian Pine;Casuarina Equisetifolia;Casuarina;Equisetifolia;10;21;20.08;17.07;4.02;S7;#55563d;0.15;#7a6451;Broadleaf;AF,AS,EU,NA,OC,SA;9;12;
+Baldcypress;Taxodium Distichum;Taxodium;Distichum;25;40;28.9;25.23;6.07;S7;#6e8545;0.46;#787976;Conifer;EU,NA,OC,SA;4;9;
+Balsam Fir;Abies Balsamea;Abies;Balsamea;10;20;13.45;12.73;4.06;S8;#7d8e5d;0.13;#898370;Conifer;AS,EU,NA;3;5;
+Bamboo;Phyllostachys Aurea;Phyllostachys;Aurea;4;8;4.34;4.34;1.19;S1;#4e6836;0;#b59b77;Shrub;AF,AS,EU,NA,OC,SA;6;10;
+Banana Tree;Musa Acuminata;Musa;Acuminata;3.5;6;4.82;3.7;1.93;S2;#4f7831;0.09;#686346;Perennial;AF,AS,EU,NA,OC,SA;10;11;
+Basswood;Tilia Americana;Tilia;Americana;25;35;30.22;20.81;8.92;S4;#5a7643;0.45;#817a65;Broadleaf;EU,NA;3;8;
+Bay Laurel;Laurus Nobilis;Laurus;Nobilis;2;6;4.23;3.81;0.65;S7;#5b7734;0.04;#76664a;Shrub;AF,AS,EU,NA,OC,SA;8;10;
+Black Locust;Robinia Pseudoacacia;Robinia;Pseudoacacia;10;28;27.25;21.28;8.99;S5;#648142;0.39;#696258;Broadleaf;AF,AS,EU,NA,OC;4;9;
+Blue Gum Eucalyptus;Eucalyptus Globulus;Eucalyptus;Globulus;20;30;24.8;19.53;6.92;S6;#6f8569;0.32;#a6927d;Broadleaf;AF,AS,EU,NA,OC,SA;8;10;
+Boxwood;Buxus Sempervirens;Buxus;Sempervirens;0.8;1.2;1.09;1;0.42;S5;#678250;0.02;#7e7153;Shrub;AF,AS,EU,NA,OC,SA;5;8;
+Cabbage Palm Fern;Phlebodium Aureum;Phlebodium;Aureum;0.5;1.5;0.94;0.94;0.92;S6;#8a9643;0;#849448;Perennial;AF,AS,EU,NA,OC,SA;9;11;
+California Bay;Umbellularia Californica;Umbellularia;Californica;20;30;27.12;19.29;9.43;S4;#566944;0.85;#807e72;Broadleaf;NA;7;9;
+California Incense Cedar;Calocedrus Decurrens;Calocedrus;Decurrens;20;30;20.95;19.82;3.85;S7;#839568;0.28;#756756;Conifer;NA;5;8;
+California Palm;Washingtonia Filifera;Washingtonia;Filifera;15;20;18.05;3.48;3.24;S6;#566b4c;0.3;#80715c;Palm;EU,NA,OC,SA;8;11;
+California Redwood;Sequoia Sempervirens;Sequoia;Sempervirens;50;80;75.66;39.09;7.93;S2;#586747;1.26;#826b5d;Conifer;NA;7;9;
+California Walnut;Juglans Regia;Juglans;Regia;10;25;10.16;8.78;5.46;S5;#68822e;0.2;#7c6b54;Broadleaf;AS,EU,NA,OC,SA;7;10;
+Coconut Palm;Cocos Nucifera;Cocos;Nucifera;20;30;22.15;10.37;5.82;S4;#808b3a;0.37;#7e7868;Palm;AF,AS,EU,NA,OC,SA;10;12;
+Common Hawthorn;Crataegus Monogyna;Crataegus;Monogyna;5;14;5.98;5.98;2.89;S4;#d6d4c2;0;#6b5c44;Shrub;AF,AS,EU,NA,OC,SA;4;7;
+Common Whitebeam;Sorbus Aria;Sorbus;Aria;8;15;8.86;7.11;2.87;S5;#97a36a;0.16;#8d8272;Broadleaf;AS,EU,NA,OC;5;8;
+Conker Tree;Aesculus Hippocastanum;Aesculus;Hippocastanum;20;35;20.38;17.57;6.49;S5;#7b9e35;0.36;#6e6c69;Broadleaf;AS,EU,NA;3;7;
+Date Palm;Phoenix Dactylifera;Phoenix;Dactylifera;21;23;21.65;7.17;5.07;S4;#5a7149;0.4;#786853;Palm;AF,AS,EU,NA;8;11;
+Desert Willow;Chilopsis Linearis;Chilopsis;Linearis;2;6;5.98;4.92;2.71;S5;#bb7289;0.08;#746b5d;Shrub;AF,EU,NA,SA;7;9;
+Douglas Fir;Pseudotsuga Menziesii;Pseudotsuga;Menziesii;45;75;65.51;46.55;6.65;S3;#757d58;0.57;#796f5c;Conifer;AS,EU,NA,OC;4;6;
+European Beech;Fagus Sylvatica;Fagus;Sylvatica;12;25;24.15;19.77;7.63;S6;#4e7030;0.78;#6c6d55;Broadleaf;EU,NA,OC,SA;4;7;
+European Larch;Larix Decidua;Larix;Decidua;18;40;18.27;14.73;3.66;S7;#5c6f2c;0.19;#635d4d;Conifer;EU,NA,OC;2;6;
+Ficus;Ficus Benjamina;Ficus;Benjamina;12;31;30.43;28.55;16.89;S5;#76924b;0.88;#877866;Broadleaf;AF,AS,EU,NA,OC,SA;10;12;
+Field Elm;Ulmus Minor;Ulmus;Minor;20;26;24.17;20.08;9.85;S4;#557b0f;0.55;#726b60;Broadleaf;AS,EU,NA;5;9;
+Flannelbush;Fremontodendron Californicum;Fremontodendron;Californicum;2;4;2.09;2.09;1.27;S5;#d7b41f;0;#929694;Shrub;AF,EU,NA,OC,SA;8;10;
+Flowering Dogwood;Cornus Florida;Cornus;Florida;5;10;5.71;5.22;3.04;S5;#e6d4d9;0.12;#796755;Shrub;AF,AS,EU,NA,OC,SA;5;9;
+Generic Dead Tree;Generic Dead;Generic;Dead;5;35;22.26;18.25;6.83;S5;#766e5a;0.55;#766e5a;Broadleaf;AF,AS,EU,NA,OC,SA;1;13;
+Generic Stump;Stump;Stump;;0.4;1;0.6;0.6;0.3;S1;#968b7a;0;#968b7a;Broadleaf;AF,AS,EU,NA,OC,SA;1;13;
+Generic Unknown;Unknown;Unknown;;5;35;18.67;13.7;5.36;S5;#eaeaea;0.49;#fefefe;Broadleaf;AF,AS,EU,NA,OC,SA;1;13;
+Giant Sequoia;Sequoiadendron Giganteum;Sequoiadendron;Giganteum;50;80;62.23;47.01;12.96;S7;#808467;1.11;#896c5d;Conifer;NA;6;8;
+Hedgehog Agave;Agave Stricta;Agave;Stricta;1;2.5;2.12;2.12;0.4;S5;#617140;0;#939555;Succulent;AF,EU,NA,OC,SA;5;10;
+Japanese Angelica Tree;Aralia Elata;Aralia;Elata;3;7;6.49;4.83;3.06;S4;#cfd2aa;0.13;#8d7d6d;Broadleaf;AS,EU,NA,OC;4;8;
+Lacy Tree Philodendron;Philodendron Selloum;Philodendron;Selloum;0.5;2;1.57;1.57;0.99;S6;#40761c;0;#5d592b;Climber;AF,AS,EU,NA,OC,SA;9;11;
+Leyland Cypress;Cupressus Leylandii;Cupressus;Leylandii;3;8;7.26;6.81;1.03;S5;#6b834e;0.11;#766b59;Conifer;AF,AS,EU,NA,OC,SA;6;10;
+Lily Of The Valley;Convallaria Majalis;Convallaria;Majalis;0.15;0.3;0.24;0.12;0.06;S6;#dddbcc;0.01;#7b864d;Perennial;AS,EU,NA;3;8;
+Lodgepole Pine;Pinus Contorta;Pinus;Contorta;30;50;42.55;34.06;6.2;S7;#5d6e3e;0.54;#7d705d;Conifer;NA;4;8;
+Mediterranean Buckthorn;Rhamnus Alaternus;Rhamnus;Alaternus;1;5;4.09;3.92;1.46;S4;#4d7f40;0.02;#807463;Shrub;EU,NA,OC;8;9;
+Mexican Palmetto;Sabal Mexicana;Sabal;Mexicana;12;19;18.58;5.82;3.34;S4;#536843;0.3;#837969;Palm;NA,SA;8;11;
+Mountain Mahogany;Cercocarpus Montanus;Cercocarpus;Montanus;3;4;3.97;3.51;1.49;S5;#5b851d;0.25;#8b7d6e;Shrub;NA;6;9;
+Northern Red Oak;Quercus Rubra;Quercus;Rubra;18;35;20.39;17.22;8.8;S5;#55702f;0.32;#5c5852;Broadleaf;AF,AS,EU,NA,OC,SA;4;8;
+Norway Maple;Acer Platanoides;Acer;Platanoides;20;30;20.83;17.18;6.64;S5;#71893e;0.3;#686766;Broadleaf;AS,EU,NA;3;7;
+Norway Spruce;Picea Abies;Picea;Abies;12;26;25.94;24.24;7.19;S8;#7a7d49;0.41;#817a74;Conifer;EU,NA;2;8;
+Orange Tree;Citrus Sinensis;Citrus;Sinensis;5;13;5.94;3.94;2.22;S4;#304d09;0.15;#8a7760;Broadleaf;AF,AS,EU,NA,OC,SA;9;11;
+Orchid;Bulbophyllum Phalaenopsis;Bulbophyllum;Phalaenopsis;0.3;1;0.71;0.26;0.2;S2;#be86c2;0.01;#435b1e;Perennial;AF,AS,EU,NA,OC,SA;10;12;
+Oval Leaved Privet;Ligustrum Ovalifolium;Ligustrum;Ovalifolium;2;4;3.06;3.06;0.58;S5;#54852b;0;#847d5d;Shrub;AF,AS,EU,NA,OC,SA;5;8;
+Palm Lily;Cordyline Petiolaris;Cordyline;Petiolaris;2;4;3.88;3.1;0.94;S2;#74990a;0.18;#925647;Shrub;OC;9;11;
+Palo Verde;Parkinsonia Aculeata;Parkinsonia;Aculeata;2;8;7.67;5.3;4.77;S6;#e6d369;0.15;#7f776e;Shrub;EU,NA,OC,SA;8;11;
+Paper Birch;Betula Papyrifera;Betula;Papyrifera;15;23;22.07;17.96;4.76;S2;#55702a;0.35;#beb4a7;Broadleaf;EU,NA;2;7;
+Parlour Palm;Chamaedorea Elegans;Chamaedorea;Elegans;1;3;2.83;2.55;0.87;S2;#6a7c21;0.12;#7b7874;Palm;AF,AS,EU,NA,OC,SA;10;11;
+Prickly Pear Cactus;Opuntia Aciculata;Opuntia;Aciculata;0.5;1.1;1.01;1.01;0.31;S2;#6d8275;0;#6d8275;Succulent;NA,SA;8;11;
+Red Alder;Alnus Rubra;Alnus;Rubra;15;24;23.2;18.02;4.24;S5;#5c8219;0.31;#95958d;Broadleaf;EU,NA;6;8;
+Red Hickory;Carya Ovalis;Carya;Ovalis;16;30;16.9;15.14;4.82;S4;#627d45;0.3;#8b806c;Broadleaf;EU,NA;4;9;
+Rhododendron Azaleas;Rhododendron Tsutsuji;Rhododendron;Tsutsuji;0.5;2;0.85;0.62;0.51;S5;#c56b97;0.05;#7d795d;Shrub;AF,AS,EU,NA,OC,SA;5;8;
+Rose;Rosa Grandiflora;Rosa;Grandiflora;0.5;1.5;1.21;1.07;0.56;S4;#9c2e24;0.02;#6a7951;Shrub;AF,AS,EU,NA,OC,SA;5;9;
+Ruffle Palm;Aiphanes Horrida;Aiphanes;Horrida;3;10;9.86;4.97;2.99;S4;#6d792e;0.2;#886e5b;Palm;AF,AS,EU,NA,OC,SA;10;11;
+Saguaro Cactus;Carnegiea Saguaro;Carnegiea;Saguaro;3;9;7;4.06;1.08;S2;#768766;0.37;#768766;Succulent;NA,SA;8;11;
+Sassafras;Sassafras Albidum;Sassafras;Albidum;10;18;15.48;13.99;4.17;S6;#536b07;0.17;#867d79;Broadleaf;EU,NA,OC;4;9;
+Scots Pine;Pinus Sylvestris;Pinus;Sylvestris;20;35;27.15;16.56;4.58;S6;#6b7444;0.38;#6a5d53;Conifer;AS,EU,NA;3;7;
+Sea Islands Yucca;Yucca Gloriosa;Yucca;Gloriosa;0.9;2.5;2.47;2.47;0.55;S7;#647042;0;#618047;Succulent;AF,AS,EU,NA,OC,SA;6;10;
+Shadbush;Amelanchier Canadensis;Amelanchier;Canadensis;3;5;4.68;4.68;2.64;S5;#d2d5bf;0;#7f7b6b;Shrub;EU,NA;4;8;
+Snake Plant;Sansevieria Trifasciata;Sansevieria;Trifasciata;0.5;1.1;1.02;1.02;0.23;S1;#949960;0;#949960;Succulent;AF,AS,EU,NA,OC,SA;10;12;
+Southern Magnolia;Magnolia Grandiflora;Magnolia;Grandiflora;15;25;20;18.19;6.85;S5;#c9c9c6;0.35;#83765b;Broadleaf;AF,AS,EU,NA,OC,SA;7;9;
+Spanish Broom;Spartium Junceum;Spartium;Junceum;2;4;3.27;3.27;2.4;S5;#d5c85a;0;#896557;Shrub;AF,AS,EU,NA,OC;8;10;
+Strawberry Tree;Arbutus Unedo;Arbutus;Unedo;5;10;7.33;6.35;3.5;S4;#879e39;0.15;#7e6b5d;Broadleaf;AF,AS,EU,NA,SA;6;9;
+Sugar Maple;Acer Saccharum;Acer;Saccharum;15;35;15.51;14.69;5.59;S5;#8aa01e;0.3;#7e7565;Broadleaf;AF,AS,EU,NA,OC;3;8;
+Sunflower;Helianthus Annuus;Helianthus;Annuus;1.5;3;2.32;0.53;0.32;S4;#fec70d;0.03;#6d6c33;Perennial;AF,AS,EU,NA,OC,SA;2;11;
+Sweetgum;Liquidambar Styraciflua;Liquidambar;Styraciflua;10;16;14.73;12.23;3.97;S6;#698235;0.26;#71716e;Broadleaf;AF,AS,EU,NA,OC,SA;5;9;
+Umbrella Acacia;Acacia Tortilis;Acacia;Tortilis;5;19;18.4;13.13;16.42;S7;#868765;0.49;#8a8074;Broadleaf;AF,AS,NA;9;11;
+Western Juniper;Juniperus Occidentalis;Juniperus;Occidentalis;4;15;10.49;9.48;2.57;S7;#888871;0.34;#7a6956;Conifer;NA;4;8;
+White Ash;Fraxinus Americana;Fraxinus;Americana;10;26;25.49;20.76;9.32;S5;#4b7719;0.47;#7c7971;Broadleaf;AF,AS,EU,NA,OC,SA;3;9;
+White Oak;Quercus Alba;Quercus;Alba;14;28;27.37;23.09;11.79;S5;#548631;0.45;#7e7060;Broadleaf;AF,AS,EU,NA,OC;3;9;
+White Poplar;Populus Tremuloides;Populus;Tremuloides;12;20;18.36;15.15;4.25;S2;#85964b;0.31;#c6c8c3;Broadleaf;EU,NA,OC;1;6;
+White Willow;Salix Alba;Salix;Alba;12;22;21.72;19.29;9.4;S4;#637f30;0.57;#82715d;Broadleaf;AF,AS,EU,NA;2;8;
+Witch Hazel;Hamamelis Virginiana;Hamamelis;Virginiana;2;4.5;4.07;3.9;1.79;S4;#d7c06d;0.18;#84765c;Broadleaf;AF,AS,EU,NA,OC,SA;3;8;
+Algarrobo;Prosopis Nigra;Prosopis;Nigra;10;20;15;8.85;6.47;S5;#718534;0.51;#805235;Broadleaf;SA;9;9;Northern Red Oak
+American Elderberry;Sambucus Canadensis;Sambucus;Canadensis;2;4;3;2.37;0.92;S5;#62914f;0.06;#76706c;Shrub;NA;4;9;Common Hawthorn
+American Pepper;Schinus Molle;Schinus;Molle;10;15;12;8.64;3.98;S6;#5d6a50;0.18;#77736f;Broadleaf;SA;8;11;White Willow
+American Silverberry;Elaeagnus Commutata;Elaeagnus;Commutata;1;3;2;2;0.4;S7;#6e7e57;0.07;#353924;Shrub;NA;2;6;Flannelbush
+Athel Tamarisk;Tamarix Aphylla;Tamarix;Aphylla;12;18;15;8.85;6.47;S5;#718534;0.51;#805235;Broadleaf;AF,OC,AS;7;10;Northern Red Oak
+Avocado;Persea Americana;Persea;Americana;10;20;15;11.25;4.33;S4;#5d6555;0.23;#68594c;Broadleaf;NA;9;10;Apricot
+Black Tupelo;Nyssa Sylvatica;Nyssa;Sylvatica;20;25;22;19.58;4.74;S5;#8baa6b;0.29;#707267;Broadleaf;NA;4;9;White Ash
+Buttonbush;Cephalanthus Occidentalis;Cephalanthus;Occidentalis;2;4;3;3;0.66;S7;#6e7e57;0.1;#353924;Shrub;NA;4;10;Flannelbush
+Canada Buffaloberry;Shepherdia Canadensis;Shepherdia;Canadensis;1;4;2.5;2.5;0.83;S5;#909b60;0.08;#444936;Shrub;NA;2;6;Spanish Broom
+Chinaberry Tree;Melia Azedarach;Melia;Azedarach;4;12;8;5.52;2.15;S4;#8cb34c;0.11;#666663;Broadleaf;OC;7;9;Black Locust
+Chinese Tallow Tree;Triadica Sebifera;Triadica;Sebifera;8;12;10;6.6;3;S4;#aaae6e;0.15;#565752;Broadleaf;AS,NA;8;10;Common Whitebeam
+Common Hackberry;Celtis Occidentalis;Celtis;Occidentalis;7;13;10;7.8;2.18;S5;#455739;0.16;#898e8b;Broadleaf;NA;3;9;Sassafras
+Common Holly;Ilex Aquifolium;Ilex;Aquifolium;10;15;15;13.05;2.72;S5;#829d6c;0.22;#68695f;Broadleaf;EU,AF,AS;5;9;White Poplar
+Common Persimmon;Diospyros Virginiana;Diospyros;Virginiana;2;4;3;2.25;0.87;S4;#5d6555;0.05;#68594c;Broadleaf;NA,EU;4;9;Apricot
+Desert Bitterbrush;Purshia Glandulosa;Purshia;Glandulosa;1;3;2;2;1.14;S4;#6b785a;0.09;#40461d;Shrub;NA;3;9;Rose
+European Hornbeam;Carpinus Betulus;Carpinus;Betulus;15;25;20;15.6;4.36;S5;#455739;0.33;#898e8b;Broadleaf;EU;5;7;Sassafras
+Giant Chinquapin;Chrysolepis Chrysophylla;Chrysolepis;Chrysophylla;20;30;25;19.75;11.26;S4;#758651;0.61;#777775;Broadleaf;NA;6;9;White Oak
+Honey Locust;Gleditsia Triacanthos;Gleditsia;Triacanthos;20;30;25;18.25;8.51;S4;#6e9a4b;0.7;#8c887c;Broadleaf;AS,NA;4;8;Sugar Maple
+Hophornbeam;Ostrya Virginiana;Ostrya;Virginiana;14;18;16;13.44;6.11;S4;#989f66;0.38;#86837f;Broadleaf;EU,NA;3;9;Southern Magnolia
+Huckleberry Shrub;Cyrilla Racemiflora;Cyrilla;Racemiflora;3;5;4;4;1.58;S6;#66975e;0.13;#546a57;Shrub;NA,SA;5;10;Mountain Mahogany
+Japanese Hemlock;Tsuga Diversifolia;Tsuga;Diversifolia;15;25;20;17;3.78;S5;#8e9f78;0.28;#737875;Conifer;AS,NA;6;9;Norway Spruce
+Japanese Nutmeg;Torreya Nucifera;Torreya;Nucifera;10;20;15;12.75;2.84;S5;#8e9f78;0.21;#737875;Conifer;AS;6;10;Norway Spruce
+Judas Tree;Cercis Siliquastrum;Cercis;Siliquastrum;6;10;8;6.08;2.88;S4;#818088;0.2;#7d847c;Broadleaf;EU,AS;6;9;European Beech
+Lawson Cypress;Chamaecyparis Lawsoniana;Chamaecyparis;Lawsoniana;20;40;30;25.5;6.57;S6;#748d55;0.64;#8d8478;Conifer;NA;5;7;Australian Pine
+Loblolly Bay;Gordonia Lasianthus;Gordonia;Lasianthus;10;20;15;11.85;4.6;S5;#62914f;0.32;#76706c;Broadleaf;NA,AS;8;9;Common Hawthorn
+Mexican Buckeye;Ungnadia Speciosa;Ungnadia;Speciosa;2;4;3;3;0.99;S5;#909b60;0.1;#444936;Shrub;NA;7;9;Spanish Broom
+Necklacepod;Sophora Tomentosa;Sophora;Tomentosa;1;3;2;2;1.41;S6;#83996f;0.2;#40461d;Shrub;AS,NA;9;11;Lacy Tree Philodendron
+Northern Bilberry;Vaccinium Uliginosum;Vaccinium;Uliginosum;0.5;1.5;1;1;0.22;S7;#6e7e57;0.03;#353924;Shrub;NA;2;6;Flannelbush
+Northern White Cedar;Thuja Occidentalis;Thuja;Occidentalis;10;20;15;14.55;1.91;S3;#90997c;0.26;#7c7b72;Conifer;NA;2;8;Leyland Cypress
+Octopus Tree;Schefflera Actinophylla;Schefflera;Actinophylla;3;15;10;6.9;2.68;S4;#8cb34c;0.13;#666663;Broadleaf;OC;9;11;Black Locust
+Osage Orange;Maclura Pomifera;Maclura;Pomifera;3;7;5;3.75;1.44;S4;#5d6555;0.08;#68594c;Broadleaf;NA,AS;4;9;Apricot
+Paper Bark Tree;Melaleuca Quinquenervia;Melaleuca;Quinquenervia;10;20;15;10.8;4.26;S4;#7f885c;0.38;#7b7357;Broadleaf;OC;9;11;Blue Gum Eucalyptus
+Pawpaw;Asimina Triloba;Asimina;Triloba;8;12;10;7.9;3;S4;#5f725d;0.2;#958978;Broadleaf;NA;5;8;Ficus
+Persian Silk Tree;Albizia Julibrissin;Albizia;Julibrissin;5;12;8.5;6.04;2.72;S5;#95a53f;0.26;#6c664e;Broadleaf;AS;6;9;Flowering Dogwood
+Princess Tree;Paulownia Tomentosa;Paulownia;Tomentosa;10;25;17;13.43;7.65;S4;#758651;0.41;#777775;Broadleaf;AS;6;9;White Oak
+Smooth Sumac;Rhus Glabra;Rhus;Glabra;1;4;2;2;0.66;S5;#909b60;0.07;#444936;Shrub;NA;3;9;Spanish Broom
+Sourwood;Oxydendrum Arboreum;Oxydendrum;Arboreum;10;20;15;10.35;4.03;S4;#8cb34c;0.2;#666663;Broadleaf;NA;5;8;Black Locust
+Southern Wax Myrtle;Myrica Cerifera;Myrica;Cerifera;3;5;4;3.4;2.29;S4;#8b9f6d;0.08;#7a8267;Shrub;NA;7;10;Witch Hazel
+Tanoak;Notholithocarpus Densiflorus;Notholithocarpus;Densiflorus;20;25;22.5;17.1;8.11;S4;#818088;0.57;#7d847c;Broadleaf;NA;7;11;European Beech
+Tree Of Heaven;Ailanthus Altissima;Ailanthus;Altissima;10;15;12.5;11.12;2.69;S5;#8baa6b;0.17;#707267;Broadleaf;AS,NA;5;8;White Ash
+Turkish Hazel;Corylus Colurna;Corylus;Colurna;15;25;20;15.6;4.56;S5;#6f9e5b;0.29;#676b64;Broadleaf;AS;4;7;Basswood
+Western Soapberry;Sapindus Saponaria;Sapindus;Saponaria;2;6;4;2.64;2.16;S5;#829a44;0.09;#919880;Broadleaf;NA;7;10;Palo Verde
+White Mulberry;Morus Alba;Morus;Alba;10;14;12;10.08;4.33;S4;#3a561e;0.32;#74655c;Broadleaf;NA;4;9;Red Hickory
+Yellow Poplar;Liriodendron Tulipifera;Liriodendron;Tulipifera;18;32;24;20.16;9.17;S4;#989f66;0.58;#86837f;Broadleaf;NA,AS;4;9;Southern Magnolia
+Yew;Taxus Baccata;Taxus;Baccata;10;20;15;14.55;1.91;S3;#90997c;0.26;#7c7b72;Conifer;EU,AF,AS;5;8;Leyland Cypress

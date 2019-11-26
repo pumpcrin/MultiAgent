@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editorHistory>
+<item editorId="com.procedural.cityengine.editors.editor.cEModel" factoryId="org.eclipse.ui.part.FileEditorInputFactory" openTime="1574732648468">
+<persistable path="/3/scenes/scene.cej"/>
+</item>
+<item editorId="com.procedural.cityengine.editors.editor.cEModel" factoryId="org.eclipse.ui.part.FileEditorInputFactory" openTime="1574730236908">
+<persistable path="/GetMapData_Test/scenes/test.cej"/>
+</item>
+<item editorId="com.procedural.cityengine.editors.editor.cEModel" factoryId="org.eclipse.ui.part.FileEditorInputFactory" openTime="1574729107013">
+<persistable path="/MyProject/scenes/MyScene1.cej"/>
+</item>
+</editorHistory>
