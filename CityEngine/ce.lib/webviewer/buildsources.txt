@@ -1,3 +1,0 @@
-arcgis-cewebviewer-app.git
-origin/master
-ea4f6b1ea35300b525bef1f1c92161231963c881

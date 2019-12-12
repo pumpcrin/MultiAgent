@@ -1,0 +1,577 @@
+Export time: 2019/12/12 17:23:53 JST
+Export duration: 86.429s
+
+Export settings:
+	Export Geometry: Models with Shape Fallback
+	Output Path: C:\Users\Koshino_Lab\Desktop\‘²Œ¤ 151331\CityEngine\MyProject\export
+	Simplify Terrain Meshes: true
+	Terrain Layers: Export all selected terrain layers
+	applicationName: CityEngine
+	applicationString: CityEngine 2019.0.5403 0409R
+	applicationVendor: Esri R&D Center Zurich Inc.
+	applicationVersion: 2019.0.5403 04091147
+	atlasAddWrapBorder: true
+	author: Koshino_Lab
+	baseName: MyScene1_textureTest
+	collectTextures: true
+	createShapeGroups: false
+	createTextureAtlases: false
+	embedTextures: false
+	encoderID: com.esri.prt.codecs.FBXEncoder
+	encoderName: Autodesk FBX
+	errorFallback: true
+	existingFiles: OVERWRITE
+	facesWithHoles: TRIANGULATE_FACES_WITH_HOLES
+	fileGranularity: MEMORY_BUDGET
+	fileType: BINARY
+	globalOffset: [ 0.0, 0.0, 0.0 ]
+	includeMaterials: true
+	localOffset: NONE
+	maxAtlasDim: 11
+	memoryBudget: 500
+	mergeNormals: true
+	mergeTexcoords: true
+	mergeVertices: true
+	meshGranularity: INSTANCED
+	normalPrecision: 0.001
+	normalsIndexing: INDEXED
+	outputPath: 
+	sceneFile: /MyProject/scenes/MyScene1.cej
+	script: 
+	shapeNameDelimiter: _
+	tempPath: 
+	texcoordPrecision: 1.0E-4
+	textureCoordinates: ALL
+	triangulateMeshes: false
+	vertexNormals: SET_MISSING
+	vertexPrecision: 0.001
+	writeLog: true
+
+Initial shapes:
+	  0 :   OK                'Shape'             OID '293fc534-6e5d-11b2-a977-00d5471a4b3c:0'
+	  1 :   OK                'Shape'             OID '293fc534-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  2 :   OK                'Shape'             OID '293fc534-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  3 :   OK                'Shape'             OID '293fc534-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  4 :   OK                'Shape'             OID '293fc534-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  5 :   OK                'Shape'             OID '293fdfc4-6e5d-11b2-a977-00d5471a4b3c:0'
+	  6 :   OK                'Shape'             OID '293fdfc4-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  7 :   OK                'Shape'             OID '293fdfc4-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  8 :   OK                'Shape'             OID '293fdfc4-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	  9 :   OK                'Shape'             OID '293fdfc4-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 10 :   OK                'Shape'             OID '293ff8c4-6e5d-11b2-a977-00d5471a4b3c:0'
+	 11 :   OK                'Shape'             OID '293ff8c4-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 12 :   OK                'Shape'             OID '293ff8c4-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 13 :   OK                'Shape'             OID '29400abc-6e5d-11b2-a977-00d5471a4b3c:0'
+	 14 :   OK                'Shape'             OID '29400abc-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 15 :   OK                'Shape'             OID '29400abc-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 16 :   OK                'Shape'             OID '29401674-6e5d-11b2-a977-00d5471a4b3c:0'
+	 17 :   OK                'Shape'             OID '29401674-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 18 :   OK                'Shape'             OID '29401674-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 19 :   OK                'Shape'             OID '29560420-6e5d-11b2-a977-00d5471a4b3c:0'
+	 20 :   OK                'Shape'             OID '29560420-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 21 :   OK                'Shape'             OID '29560420-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 22 :   OK                'Shape'             OID '295661e0-6e5d-11b2-a977-00d5471a4b3c:0'
+	 23 :   OK                'Shape'             OID '295661e0-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 24 :   OK                'Shape'             OID '295661e0-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 25 :   OK                'Shape'             OID '2956d580-6e5d-11b2-a977-00d5471a4b3c:0'
+	 26 :   OK                'Shape'             OID '2956d580-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 27 :   OK                'Shape'             OID '2956d580-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 28 :   OK                'Shape'             OID '4d5beb8c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 29 :   OK                'Shape'             OID '4d5beb8c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 30 :   OK                'Shape'             OID '4d5beb8c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 31 :   OK                'Shape'             OID '4d5beb8c-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 32 :   OK                'Shape'             OID '4d5beb8c-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 33 :   OK                'Shape'             OID '4d5bfd20-6e5d-11b2-a977-00d5471a4b3c:0'
+	 34 :   OK                'Shape'             OID '4d5bfd20-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 35 :   OK                'Shape'             OID '4d5bfd20-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 36 :   OK                'Shape'             OID '4d5bfd20-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 37 :   OK                'Shape'             OID '4d5bfd20-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 38 :   OK                'Shape'             OID '4d5c0bf8-6e5d-11b2-a977-00d5471a4b3c:0'
+	 39 :   OK                'Shape'             OID '4d5c0bf8-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 40 :   OK                'Shape'             OID '4d5c0bf8-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 41 :   OK                'Shape'             OID '4d5c142c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 42 :   OK                'Shape'             OID '4d5c142c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 43 :   OK                'Shape'             OID '4d5c142c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 44 :   OK                'Shape'             OID '4d5c1ad0-6e5d-11b2-a977-00d5471a4b3c:0'
+	 45 :   OK                'Shape'             OID '4d5c1ad0-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 46 :   OK                'Shape'             OID '4d5c1ad0-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 47 :   OK                'Shape'             OID '4d71cb8c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 48 :   OK                'Shape'             OID '4d71cb8c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 49 :   OK                'Shape'             OID '4d71cb8c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 50 :   OK                'Shape'             OID '4d71f4f4-6e5d-11b2-a977-00d5471a4b3c:0'
+	 51 :   OK                'Shape'             OID '4d71f4f4-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 52 :   OK                'Shape'             OID '4d71f4f4-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 53 :   OK                'Shape'             OID '4d720944-6e5d-11b2-a977-00d5471a4b3c:0'
+	 54 :   OK                'Shape'             OID '4d720944-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 55 :   OK                'Shape'             OID '4d720944-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 56 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:0'
+	 57 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:1'
+	 58 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:2'
+	 59 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:3'
+	 60 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:4'
+	 61 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:5'
+	 62 :   OK                'Shape'             OID '4e181000-6e5d-11b2-a977-00d5471a4b3c:6'
+	 63 :   OK                'Shape'             OID 'a64ecda4-6e5d-11b2-a977-00d5471a4b3c:0'
+	 64 :   OK                'Shape'             OID 'a64ecda4-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 65 :   OK                'Shape'             OID 'a64ecda4-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 66 :   OK                'Shape'             OID 'a64ecda4-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 67 :   OK                'Shape'             OID 'a64ecda4-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 68 :   OK                'Shape'             OID 'a64edf38-6e5d-11b2-a977-00d5471a4b3c:0'
+	 69 :   OK                'Shape'             OID 'a64edf38-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 70 :   OK                'Shape'             OID 'a64edf38-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 71 :   OK                'Shape'             OID 'a64ee76c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 72 :   OK                'Shape'             OID 'a64ee76c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 73 :   OK                'Shape'             OID 'a64ee76c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 74 :   OK                'Shape'             OID 'a650712c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 75 :   OK                'Shape'             OID 'a650712c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 76 :   OK                'Shape'             OID 'a650712c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 77 :   OK                'Shape'             OID 'a650712c-6e5d-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 78 :   OK                'Shape'             OID 'a650712c-6e5d-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 79 :   OK                'Shape'             OID 'a6508388-6e5d-11b2-a977-00d5471a4b3c:0'
+	 80 :   OK                'Shape'             OID 'a6508388-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 81 :   OK                'Shape'             OID 'a6508388-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 82 :   OK                'Shape'             OID 'a65ef97c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 83 :   OK                'Shape'             OID 'a65ef97c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 84 :   OK                'Shape'             OID 'a65ef97c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 85 :   OK                'Shape'             OID 'a65f16c8-6e5d-11b2-a977-00d5471a4b3c:0'
+	 86 :   OK                'Shape'             OID 'a65f16c8-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 87 :   OK                'Shape'             OID 'a65f16c8-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 88 :   OK                'Shape'             OID 'a65f2474-6e5d-11b2-a977-00d5471a4b3c:0'
+	 89 :   OK                'Shape'             OID 'a65f2474-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 90 :   OK                'Shape'             OID 'a65f2474-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 91 :   OK                'Shape'             OID 'a65f302c-6e5d-11b2-a977-00d5471a4b3c:0'
+	 92 :   OK                'Shape'             OID 'a65f302c-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 93 :   OK                'Shape'             OID 'a65f302c-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	 94 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:0'
+	 95 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:1'
+	 96 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:2'
+	 97 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:3'
+	 98 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:4'
+	 99 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:5'
+	100 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:6'
+	101 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:7'
+	102 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:8'
+	103 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:9'
+	104 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:a'
+	105 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:b'
+	106 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:c'
+	107 :   OK                'Shape'             OID 'a70864f8-6e5d-11b2-a977-00d5471a4b3c:d'
+	108 :   OK                'Shape'             OID 'f6a8e2a8-6e5d-11b2-a977-00d5471a4b3c:0'
+	109 :   OK                'Shape'             OID 'f6a8e2a8-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	110 :   OK                'Shape'             OID 'f6a8e2a8-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	111 :   OK                'Shape'             OID 'f6ada3d8-6e5d-11b2-a977-00d5471a4b3c:0'
+	112 :   OK                'Shape'             OID 'f6ada3d8-6e5d-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	113 :   OK                'Shape'             OID 'f6ada3d8-6e5d-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	114 :   OK                'Shape'             OID '00a40260-6e5e-11b2-a977-00d5471a4b3c:0'
+	115 :   OK                'Shape'             OID '00a40260-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	116 :   OK                'Shape'             OID '00a40260-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	117 :   OK                'Shape'             OID '00a40260-6e5e-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	118 :   OK                'Shape'             OID '00a40260-6e5e-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	119 :   OK                'Shape'             OID '00a41200-6e5e-11b2-a977-00d5471a4b3c:0'
+	120 :   OK                'Shape'             OID '00a41200-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	121 :   OK                'Shape'             OID '00a41200-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	122 :   OK                'Shape'             OID '00a4196c-6e5e-11b2-a977-00d5471a4b3c:0'
+	123 :   OK                'Shape'             OID '00a4196c-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	124 :   OK                'Shape'             OID '00a4196c-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	125 :   OK                'Shape'             OID '00a4c100-6e5e-11b2-a977-00d5471a4b3c:0'
+	126 :   OK                'Shape'             OID '00a4c100-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	127 :   OK                'Shape'             OID '00a4c100-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	128 :   OK                'Shape'             OID '00a4c100-6e5e-11b2-a977-00d5471a4b3c:3'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	129 :   OK                'Shape'             OID '00a4c100-6e5e-11b2-a977-00d5471a4b3c:4'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	130 :   OK                'Shape'             OID '00a4cf74-6e5e-11b2-a977-00d5471a4b3c:0'
+	131 :   OK                'Shape'             OID '00a4cf74-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	132 :   OK                'Shape'             OID '00a4cf74-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	133 :   OK                'Shape'             OID '00a4d5b4-6e5e-11b2-a977-00d5471a4b3c:0'
+	134 :   OK                'Shape'             OID '00a4d5b4-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	135 :   OK                'Shape'             OID '00a4d5b4-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	136 :   OK                'Shape'             OID '00b0b848-6e5e-11b2-a977-00d5471a4b3c:0'
+	137 :   OK                'Shape'             OID '00b0b848-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	138 :   OK                'Shape'             OID '00b0b848-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	139 :   OK                'Shape'             OID '00b11b1c-6e5e-11b2-a977-00d5471a4b3c:0'
+	140 :   OK                'Shape'             OID '00b11b1c-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	141 :   OK                'Shape'             OID '00b11b1c-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	142 :   OK                'Shape'             OID '00b126d4-6e5e-11b2-a977-00d5471a4b3c:0'
+	143 :   OK                'Shape'             OID '00b126d4-6e5e-11b2-a977-00d5471a4b3c:1'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	144 :   OK                'Shape'             OID '00b126d4-6e5e-11b2-a977-00d5471a4b3c:2'
+		CGA Warnings:
+			[Method: 'Default$Desert_City_Powerlines$PutHolderBranches'] _$peekFloat(): SplitXYZ: leaf 2 has size 0.000000, too small, ignored
+	145 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:0'
+	146 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:1'
+	147 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:2'
+	148 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:3'
+	149 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:4'
+	150 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:5'
+	151 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:6'
+	152 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:7'
+	153 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:8'
+	154 :   OK                'Shape'             OID '0173e264-6e5e-11b2-a977-00d5471a4b3c:9'
+
+Assets with errors/warnings/infos:
+	<initial shape geometry>:
+		Warning: Geometry '' contained (6/0/6) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual9.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual9.obj (mesh: lwpg0005_)' contained: 10 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual9.obj' contained (0/0/6) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_13.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_13.obj (mesh: Person_13)' contained: 4 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_13.obj' contained (0/3/12) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_22.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_22.obj (mesh: Person_22)' contained: 4 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_22.obj' contained (0/1/3) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_24.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_24.obj (mesh: Person_24)' contained: 7 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_24.obj' contained (0/12/19) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_20.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_20.obj (mesh: Person_20)' contained: 2 0-length edges (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_20.obj' contained (0/1/2) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual7.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual7.obj (mesh: lwpg0003_)' contained: 8 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual7.obj' contained (0/4/8) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_23.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_23.obj (mesh: Person_23)' contained: 4 0-length edges (removed); ; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual8.obj:
+		Warning: PRTX mesh cleanup: detected zero length vertex normal (0, 0, 0, length (0 must be > 1e-3), dropping vertex normals from mesh.; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual8.obj (mesh: lwpg0004_)' contained: 21 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual8.obj' contained (0/0/11) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_12.obj:
+		Warning: Could not resolve texture '/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/lwpg0020.jpg Ni 1.00' - error 'could not find a stream adaptor which can handle the scheme or uri: '''.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_21.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_21.obj (mesh: Person_21)' contained: 7 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_21.obj' contained (0/21/21) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual10.obj:
+		Warning: PRTX mesh cleanup: detected zero length vertex normal (0, 0, 0, length (0 must be > 1e-3), dropping vertex normals from mesh.; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual10.obj (mesh: lwpg0007_)' contained: 19 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual10.obj' contained (0/0/14) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_15.obj:
+		Warning: Could not resolve texture '/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/lwpg0023.jpg Ni 1.00' - error 'could not find a stream adaptor which can handle the scheme or uri: '''.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual4.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual4.obj (mesh: lwpg0006)' contained: 22 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual4.obj' contained (0/6/13) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual6.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual6.obj (mesh: lwpg0002)' contained: 11 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/casual6.obj' contained (0/3/7) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+	/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_19.obj:
+		Warning: Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_19.obj (mesh: Person_19)' contained: 9 0-area faces (removed); ; Geometry 'file:/C:/Users/Koshino_Lab/Desktop/%E5%8D%92%E7%A0%94%20151331/CityEngine/Example_Complete_Streets__2016_0/assets/3DModels_from_LowPolygon3D.com/LowPolygon3D.com_People/Person_19.obj' contained (0/14/23) unreferenced vertices/vertex normals/texture coordinates, they were removed.; 
+
+
+Files created:
+	'MyScene1_textureTest_0.fbx':
+		Initial shapes:
+			0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 149, 150, 151, 152, 153, 154, 
+		GEOMETRY:
+			Total Meshes: 74
+			Total Polygons: 480253
+			   | Name                            | Instance Occurrences | Material                        | Polygons 
+			===+=================================+======================+=================================+==========
+			 1  'mesh'                                              396  'CityEngineMaterial_mat(396),'            6 
+			 2  'mesh_1'                                            358  'CityEngineMaterial_1_mat(358),'          7 
+			 3  'Leyland_Cypress__Realistic_LOD3'                    93  'material_mat(93),'                    3394 
+			 4  'lwpg108__1'                                          1  'lwpg108_mat(1),'                      2860 
+			 5  'mesh_CityEngineMaterial'                             1  'CityEngineMaterial_mat(1),'            693 
+			 6  'mesh_CityEngineMaterial_1'                           1  'CityEngineMaterial_30_mat(1),'           8 
+			 7  'mesh_CityEngineMaterial_2'                           1  'CityEngineMaterial_27_mat(1),'          13 
+			 8  'mesh_CityEngineMaterial_3'                           1  'CityEngineMaterial_11_mat(1),'         101 
+			 9  'mesh_CityEngineMaterial_4'                           1  'CityEngineMaterial_16_mat(1),'           5 
+			10  'mesh_lwpg0004'                                       1  'lwpg0004_mat(1),'                     2575 
+			11  'mesh_lampwsign04'                                    1  'lampwsign04_mat(1),'                  5264 
+			12  'mesh_lwpg0098SG'                                     1  'lwpg0098SG_mat(1),'                   2928 
+			13  'mesh_lwpg0003'                                       1  'lwpg0003_mat(1),'                    25470 
+			14  'mesh_CityEngineMaterial_5'                           1  'CityEngineMaterial_9_mat(1),'           49 
+			15  'mesh_CityEngineMaterial_6'                           1  'CityEngineMaterial_6_mat(1),'          297 
+			16  'mesh_lwpg0049'                                       1  'lwpg0049_mat(1),'                    15648 
+			17  'mesh_lwpg0061'                                       1  'lwpg0061_mat(1),'                     7732 
+			18  'mesh_CityEngineMaterial_7'                           1  'CityEngineMaterial_12_mat(1),'          28 
+			19  'mesh_lwpg0005'                                       1  'lwpg0005_mat(1),'                    20826 
+			20  'mesh_lwpg0017SG'                                     1  'lwpg0017SG_mat(1),'                   8704 
+			21  'mesh_lwpg0007'                                       1  'lwpg0007_mat(1),'                    19960 
+			22  'mesh_lwpg0097SG'                                     1  'lwpg0097SG_mat(1),'                   3080 
+			23  'mesh_lwp00022SG'                                     1  'lwp00022SG_mat(1),'                  39060 
+			24  'mesh_CityEngineMaterial_8'                           1  'CityEngineMaterial_31_mat(1),'           2 
+			25  'mesh_lwpg0103SG'                                     1  'lwpg0103SG_mat(1),'                  20112 
+			26  'mesh_CityEngineMaterial_9'                           1  'CityEngineMaterial_22_mat(1),'          24 
+			27  'mesh_CityEngineMaterial_10'                          1  'CityEngineMaterial_29_mat(1),'           8 
+			28  'mesh_lwpg0064SG'                                     1  'lwpg0064SG_mat(1),'                   6433 
+			29  'mesh_lwpg0020SG'                                     1  'lwpg0020SG_mat(1),'                  15816 
+			30  'mesh_lwpg0021SG'                                     1  'lwpg0021SG_mat(1),'                  20240 
+			31  'mesh_lwpg0102SG'                                     1  'lwpg0102SG_mat(1),'                   6824 
+			32  'mesh_M00003'                                         1  'M00003_mat(1),'                      15426 
+			33  'mesh_lwpg0057SG'                                     1  'lwpg0057SG_mat(1),'                  34608 
+			34  'mesh_lwpg0063SG'                                     1  'lwpg0063SG_mat(1),'                   4596 
+			35  'mesh_lwpg0058SG'                                     1  'lwpg0058SG_mat(1),'                  26694 
+			36  'mesh_CityEngineMaterial_11'                          1  'CityEngineMaterial_15_mat(1),'          16 
+			37  'mesh_CityEngineMaterial_12'                          1  'CityEngineMaterial_33_mat(1),'           4 
+			38  'mesh_CityEngineMaterial_13'                          1  'CityEngineMaterial_21_mat(1),'           8 
+			39  'mesh_lwpg00016'                                      1  'lwpg00016_mat(1),'                   10896 
+			40  'mesh_lwpg0061SG'                                     1  'lwpg0061SG_mat(1),'                   7920 
+			41  'mesh_lwpg0101SG'                                     1  'lwpg0101SG_mat(1),'                   5324 
+			42  'mesh_CityEngineShapeMaterial'                        1  'CityEngineShapeMaterial_mat(1),'         3 
+			43  'mesh_lwpg0099SG'                                     1  'lwpg0099SG_mat(1),'                   1693 
+			44  'mesh_CityEngineMaterial_14'                          1  'CityEngineMaterial_32_mat(1),'           2 
+			45  'mesh_lwpg0100SG'                                     1  'lwpg0100SG_mat(1),'                   3112 
+			46  'mesh_CityEngineMaterial_15'                          1  'CityEngineMaterial_10_mat(1),'         100 
+			47  'mesh_lwpg0060SG'                                     1  'lwpg0060SG_mat(1),'                  10692 
+			48  'mesh_CityEngineMaterial_16'                          1  'CityEngineMaterial_34_mat(1),'           4 
+			49  'mesh_CityEngineMaterial_17'                          1  'CityEngineMaterial_5_mat(1),'          966 
+			50  'mesh_CityEngineMaterial_18'                          1  'CityEngineMaterial_17_mat(1),'          24 
+			51  'mesh_CityEngineMaterial_19'                          1  'CityEngineMaterial_8_mat(1),'           50 
+			52  'mesh_CityEngineMaterial_20'                          1  'CityEngineMaterial_28_mat(1),'           5 
+			53  'mesh_lwpg0104SG'                                     1  'lwpg0104SG_mat(1),'                  10752 
+			54  'mesh_CityEngineMaterial_21'                          1  'CityEngineMaterial_23_mat(1),'          10 
+			55  'mesh_CityEngineMaterial_22'                          1  'CityEngineMaterial_20_mat(1),'          16 
+			56  'mesh_CityEngineMaterial_23'                          1  'CityEngineMaterial_2_mat(1),'          171 
+			57  'mesh_lwpg0055'                                       1  'lwpg0055_mat(1),'                    24057 
+			58  'mesh_CityEngineMaterial_24'                          1  'CityEngineMaterial_4_mat(1),'         1386 
+			59  'mesh_CityEngineMaterial_25'                          1  'CityEngineMaterial_3_mat(1),'         2000 
+			60  'mesh_CityEngineMaterial_26'                          1  'CityEngineMaterial_24_mat(1),'           6 
+			61  'mesh_lwpg0062SG'                                     1  'lwpg0062SG_mat(1),'                  14350 
+			62  'mesh_lwpg0018SG'                                     1  'lwpg0018SG_mat(1),'                   5552 
+			63  'mesh_CityEngineMaterial_27'                          1  'CityEngineMaterial_13_mat(1),'          52 
+			64  'mesh_CityEngineMaterial_28'                          1  'CityEngineMaterial_26_mat(1),'          16 
+			65  'mesh_CityEngineMaterial_29'                          1  'CityEngineMaterial_18_mat(1),'          12 
+			66  'mesh_CityEngineMaterial_30'                          1  'CityEngineMaterial_14_mat(1),'          38 
+			67  'mesh_lwpg0009'                                       1  'lwpg0009_mat(1),'                     8097 
+			68  'mesh_lwpg0059SG'                                     1  'lwpg0059SG_mat(1),'                  14562 
+			69  'mesh_lwpg0019SG'                                     1  'lwpg0019SG_mat(1),'                  23056 
+			70  'mesh_lwpg0023SG'                                     1  'lwpg0023SG_mat(1),'                  15588 
+			71  'mesh_CityEngineMaterial_31'                          1  'CityEngineMaterial_25_mat(1),'           2 
+			72  'mesh_CityEngineMaterial_32'                          1  'CityEngineMaterial_7_mat(1),'           56 
+			73  'mesh_CityEngineMaterial_33'                          1  'CityEngineMaterial_19_mat(1),'           8 
+			74  'mesh_lwp00024SG'                                     1  'lwp00024SG_mat(1),'                  10156 
+		MATERIAL:
+			Total Materials: 73
+			   | Name                        | Texture_0                              | Texture_1              
+			===+=============================+========================================+========================
+			 1  'CityEngineMaterial_mat'      'powerlinePoleWood.jpg'                  ''                      
+			 2  'CityEngineMaterial_1_mat'    'isolatorMaterial.jpg'                   ''                      
+			 3  'material_mat'                'CupressusLeylandii.png'                 'CupressusLeylandii.png'
+			 4  'lwpg108_mat'                 'lwpg108d.jpg'                           ''                      
+			 5  'CityEngineMaterial_30_mat'   'Paver Brick Red Basket Weave.jpg'       ''                      
+			 6  'CityEngineMaterial_27_mat'   'rooftile_brown.jpg'                     ''                      
+			 7  'CityEngineMaterial_11_mat'   'Standard Grass.jpg'                     ''                      
+			 8  'CityEngineMaterial_16_mat'   'rooftile_blue.jpg'                      ''                      
+			 9  'lwpg0004_mat'                'lwpg0004.jpg'                           ''                      
+			10  'lampwsign04_mat'             'lamparond.png'                          ''                      
+			11  'lwpg0098SG_mat'              'lwpg0098.jpg'                           ''                      
+			12  'lwpg0003_mat'                'lwpg0003.jpg'                           ''                      
+			13  'CityEngineMaterial_9_mat'    ''                                       ''                      
+			14  'CityEngineMaterial_6_mat'    ''                                       ''                      
+			15  'lwpg0049_mat'                'lwpg0041.jpg'                           ''                      
+			16  'lwpg0061_mat'                'lwpg0048.jpg'                           ''                      
+			17  'CityEngineMaterial_12_mat'   'asphalt_painted_white_7x7m.jpg'         ''                      
+			18  'lwpg0005_mat'                'lwpg0005.jpg'                           ''                      
+			19  'lwpg0017SG_mat'              'lwpg0017.jpg'                           ''                      
+			20  'lwpg0007_mat'                'lwpg0007.jpg'                           ''                      
+			21  'lwpg0097SG_mat'              'lwpg0097.jpg'                           ''                      
+			22  'lwp00022SG_mat'              'lwpg0022.jpg'                           ''                      
+			23  'CityEngineMaterial_31_mat'   'lanes_4_stop_arrows_sides_1_14x14m.jpg' ''                      
+			24  'lwpg0103SG_mat'              'lwpg0103.jpg'                           ''                      
+			25  'CityEngineMaterial_22_mat'   'house_texture2.jpg'                     ''                      
+			26  'CityEngineMaterial_29_mat'   'rooftile_gray.jpg'                      ''                      
+			27  'lwpg0064SG_mat'              'lwpg0064.jpg'                           ''                      
+			28  'lwpg0020SG_mat'              ''                                       ''                      
+			29  'lwpg0021SG_mat'              'lwpg0021.jpg'                           ''                      
+			30  'lwpg0102SG_mat'              'lwpg0102.jpg'                           ''                      
+			31  'M00003_mat'                  'lwpg0042.jpg'                           ''                      
+			32  'lwpg0057SG_mat'              'lwpg0057.jpg'                           ''                      
+			33  'lwpg0063SG_mat'              'lwpg0063.jpg'                           ''                      
+			34  'lwpg0058SG_mat'              'lwpg0058.jpg'                           ''                      
+			35  'CityEngineMaterial_15_mat'   'house_texture1.jpg'                     ''                      
+			36  'CityEngineMaterial_33_mat'   'house_texture5.jpg'                     ''                      
+			37  'CityEngineMaterial_21_mat'   'rooftile_green.jpg'                     ''                      
+			38  'lwpg00016_mat'               'lwpg0006.jpg'                           ''                      
+			39  'lwpg0061SG_mat'              'lwpg0061.jpg'                           ''                      
+			40  'lwpg0101SG_mat'              'lwpg0101.jpg'                           ''                      
+			41  'CityEngineShapeMaterial_mat' ''                                       ''                      
+			42  'lwpg0099SG_mat'              'lwpg0099.jpg'                           ''                      
+			43  'CityEngineMaterial_32_mat'   'lanes_4_stop_arrows_sides_4_14x14m.jpg' ''                      
+			44  'lwpg0100SG_mat'              'lwpg0100.jpg'                           ''                      
+			45  'CityEngineMaterial_10_mat'   'lanes_4_stop_strip_14x14m.jpg'          ''                      
+			46  'lwpg0060SG_mat'              'lwpg0060.jpg'                           ''                      
+			47  'CityEngineMaterial_34_mat'   'rooftile_gray2.jpg'                     ''                      
+			48  'CityEngineMaterial_5_mat'    'cableTransp.png'                        'cableTransp.png'       
+			49  'CityEngineMaterial_17_mat'   'house_texture3.jpg'                     ''                      
+			50  'CityEngineMaterial_8_mat'    'crosswalk_continental_white.jpg'        ''                      
+			51  'CityEngineMaterial_28_mat'   'rooftile_black.jpg'                     ''                      
+			52  'lwpg0104SG_mat'              'lwpg0104.jpg'                           ''                      
+			53  'CityEngineMaterial_23_mat'   'rooftile_blue2.jpg'                     ''                      
+			54  'CityEngineMaterial_20_mat'   'house_texture6.jpg'                     ''                      
+			55  'CityEngineMaterial_2_mat'    'asphalt_14x14m.jpg'                     ''                      
+			56  'lwpg0055_mat'                'lwpg0045.jpg'                           ''                      
+			57  'CityEngineMaterial_4_mat'    'Concrete Clean Light.jpg'               ''                      
+			58  'CityEngineMaterial_3_mat'    'curbs_2m.jpg'                           ''                      
+			59  'CityEngineMaterial_24_mat'   'lanes_4_stop_arrows_all_1_14x14m.jpg'   ''                      
+			60  'lwpg0062SG_mat'              'lwpg0062.jpg'                           ''                      
+			61  'lwpg0018SG_mat'              'lwpg0018.jpg'                           ''                      
+			62  'CityEngineMaterial_13_mat'   'lanes_4_stripes_white_14x14m.jpg'       ''                      
+			63  'CityEngineMaterial_26_mat'   'house_texture4.jpg'                     ''                      
+			64  'CityEngineMaterial_18_mat'   'rooftile_brown2.jpg'                    ''                      
+			65  'CityEngineMaterial_14_mat'   'lanes_4_stop_word_mirrored_14x14m.jpg'  ''                      
+			66  'lwpg0009_mat'                'lwpg0002.jpg'                           ''                      
+			67  'lwpg0059SG_mat'              'lwpg0059.jpg'                           ''                      
+			68  'lwpg0019SG_mat'              'lwpg0019.jpg'                           ''                      
+			69  'lwpg0023SG_mat'              ''                                       ''                      
+			70  'CityEngineMaterial_25_mat'   'lanes_4_stop_arrows_all_2_14x14m.jpg'   ''                      
+			71  'CityEngineMaterial_7_mat'    'Drainage_Side.jpg'                      ''                      
+			72  'CityEngineMaterial_19_mat'   'rooftile_black2.jpg'                    ''                      
+			73  'lwp00024SG_mat'              'lwpg0024.jpg'                           ''                      
