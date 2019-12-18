@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class TownBuilder_Test : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+        Create();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Create(){
         
     }
 }

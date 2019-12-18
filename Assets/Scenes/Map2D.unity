@@ -129,7 +129,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 129760744}
-  - component: {fileID: 129760743}
   - component: {fileID: 129760742}
   - component: {fileID: 129760741}
   m_Layer: 0
@@ -197,19 +196,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &129760743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129760740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0505f6ba156be874582b258cf2f67957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locationStorage: {fileID: 11400000, guid: f81c0c14ea0398044bac478ffbe38157, type: 2}
 --- !u!4 &129760744
 Transform:
   m_ObjectHideFlags: 0
