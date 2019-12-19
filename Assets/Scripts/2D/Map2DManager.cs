@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class Map2DManager : MonoBehaviour
 {
+    public static Map2DManager Singleton;
+
     Dictionary<Color, GameObject> col2Buildings;
 
     public GameObject field;
     Texture2D map;
     Vector3 offset;
 
+    void Awake(){
+        Singleton = this ?? Singleton;
+    }
+
     void Start()
     {
+
         map = field.GetComponent<Renderer>().material.mainTexture as Texture2D;
         col2Buildings = new Dictionary<Color, GameObject>();
+
+        var buildingsParent = new GameObject();
+        buildingsParent.name = "Buildings";
+        buildingsParent.transform.parent = field.transform;
 
         var cols = new Color[]{Color.black, Color.red, Color.green, Color.blue};
         foreach(var col in cols){
@@ -37,11 +48,20 @@ public class Map2DManager : MonoBehaviour
                 var pos = new Vector3(x, 0, z);
 
                 var building = Instantiate(col2Buildings[col], offset + pos, Quaternion.identity);
+                building.transform.parent = buildingsParent.transform;
             }
         }
     }
 
-    public Vector3 GetPos(Vector2 pos){
+    public Vector3 GetPosition(Vector2 pos){
         return offset + new Vector3(pos.x, 0, pos.y);
+    }
+
+    public Vector2 GetPos(Vector3 position){
+        var normalizedPosition = position - offset;
+        int x = Mathf.RoundToInt(position.x);
+        int z = Mathf.RoundToInt(position.z);
+
+        return new Vector2(x, z);
     }
 }
